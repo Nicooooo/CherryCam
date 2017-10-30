@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+        "outputFile": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 120
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 255
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 323
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -88,7 +88,7 @@
                     "endOffset": 505
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\acab9f8da8f1cffea9ddad5923e4af8392dde2eb\\output\\res\\values-land\\values-land.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\5fea89678beded963d101d5ee2ec7e3f33ecac81\\output\\res\\values-land\\values-land.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

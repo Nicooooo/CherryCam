@@ -1,7 +1,7 @@
-#Mon Oct 30 16:06:44 SGT 2017
-base.0=C\:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c50463762fe6435ffff046ea0993c072abc241af
+#Mon Oct 30 16:41:05 CST 2017
+base.0=E\:\\10-09-17\\Procamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d4b7ef519afa143c9069507769777c658423eb8c
 renamed.1=classes2.dex
 renamed.0=classes.dex
-file.1=C\:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_fc1f92c04ddb0b0c1b3107ab370409c1660f2bf2\\classes.dex
-base.1=C\:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_fc1f92c04ddb0b0c1b3107ab370409c1660f2bf2
-file.0=C\:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c50463762fe6435ffff046ea0993c072abc241af\\classes.dex
+file.1=E\:\\10-09-17\\Procamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_69700b2c00325ed68e099d931ffb9eb8e4623607\\classes.dex
+base.1=E\:\\10-09-17\\Procamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_69700b2c00325ed68e099d931ffb9eb8e4623607
+file.0=E\:\\10-09-17\\Procamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d4b7ef519afa143c9069507769777c658423eb8c\\classes.dex

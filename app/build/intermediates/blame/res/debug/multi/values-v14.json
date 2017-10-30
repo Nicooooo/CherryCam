@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+        "outputFile": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
         "map": [
             {
                 "to": {
@@ -12,14 +12,14 @@
                     "endOffset": 204
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-v14\\styles.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 220,
+                        "startOffset": 227,
                         "endLine": 9,
                         "endColumn": 12,
-                        "endOffset": 369
+                        "endOffset": 378
                     }
                 }
             },
@@ -33,7 +33,7 @@
                     "endOffset": 480
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v14\\values-v14.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -53,7 +53,7 @@
                     "endOffset": 551
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v14\\values-v14.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -72,7 +72,7 @@
                     "endOffset": 634
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v14\\values-v14.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -92,7 +92,7 @@
                     "endOffset": 1044
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v14\\values-v14.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -113,7 +113,7 @@
                     "endOffset": 1466
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v14\\values-v14.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -133,7 +133,7 @@
                     "endOffset": 1586
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v14\\values-v14.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -152,7 +152,7 @@
                     "endOffset": 1649
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v14\\values-v14.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -172,7 +172,7 @@
                     "endOffset": 1803
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v14\\values-v14.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -192,7 +192,7 @@
                     "endOffset": 1866
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v14\\values-v14.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -211,7 +211,7 @@
                     "endOffset": 1998
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v14\\values-v14.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-v14\\values-v14.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,

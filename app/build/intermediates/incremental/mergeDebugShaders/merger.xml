@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\FiMobile-JMK\Documents\GIT\app\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="E:\10-09-17\Procamera\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="E:\10-09-17\Procamera\app\src\debug\shaders"/></dataSet></merger>

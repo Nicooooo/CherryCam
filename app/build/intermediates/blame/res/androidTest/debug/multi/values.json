@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 107
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\androidTest\\res\\values\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\androidTest\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 56,
+                        "startOffset": 59,
                         "endColumn": 56,
-                        "endOffset": 108
+                        "endOffset": 111
                     }
                 }
             }
