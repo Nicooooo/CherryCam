@@ -1,0 +1,679 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        />
+
+    <ImageButton
+        android:id="@+id/take_photo"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/take_photo"
+        android:src="@drawable/take_photo_selector"
+        android:onClick="clickedTakePhoto"
+        android:background="@null"
+        />
+
+    <ImageButton
+        android:id="@+id/take_video"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/take_video"
+        android:src="@drawable/take_video_selector"
+        android:onClick="clickedTakePhoto"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+        android:background="@null"  />
+
+
+    <ImageButton
+        android:id="@+id/toggle_camera"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/switch_to_back_camera"
+        android:src="@drawable/ic_camera_switch"
+        android:onClick="clickedSwitchCamera"
+        android:background="@null"
+        />
+
+    <ImageButton
+        android:id="@+id/pause_video"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/pause_video"
+        android:src="@drawable/ic_pause_circle_outline_white_48dp"
+        android:onClick="clickedPauseVideo"
+        android:layout_toRightOf="@+id/take_photo"
+        android:background="@null"
+        />
+
+    <ZoomControls
+        android:id="@+id/zoom"
+        android:contentDescription="@string/zoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:alpha="0.5"
+        />
+
+    <SeekBar
+        android:id="@+id/zoom_seekbar"
+        android:contentDescription="@string/zoom"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:visibility="gone"
+        />
+
+    <SeekBar
+        android:id="@+id/focus_seekbar"
+        android:contentDescription="@string/focus_distance"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:visibility="gone"
+        android:background="@color/seekbar_background"
+        />
+
+    <Button
+        android:id="@+id/gui_anchor"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="1dp"
+        android:visibility="gone"
+        android:scaleType="fitCenter"
+        />
+
+    <ImageButton
+        android:id="@+id/gallery"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/take_photo"
+        android:contentDescription="@string/gallery"
+        android:src="@drawable/gallery"
+        android:onClick="clickedGallery"
+        />
+
+    <ImageButton
+        android:id="@+id/settings"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:visibility="invisible"
+        android:contentDescription="@string/action_settings"
+        android:src="@drawable/settings"
+        android:onClick="clickedSettings"
+        />
+
+    <ImageButton
+        android:id="@+id/popup"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/action_popup"
+        android:src="@drawable/popup"
+        android:onClick="clickedPopupSettings"
+        />
+
+    <ImageButton
+        android:id="@+id/exposure_lock"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/exposure_lock"
+        android:onClick="clickedExposureLock"
+        />
+
+    <ImageButton
+        android:id="@+id/exposure"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/exposure"
+        android:src="@drawable/ic_exposure_white_48dp"
+        android:onClick="clickedExposure"
+        />
+
+    <ImageButton
+        android:id="@+id/switch_video"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/switch_to_video"
+        android:src="@drawable/switch_video"
+        android:onClick="clickedSwitchVideo"
+        />
+
+    <ImageButton
+        android:id="@+id/switch_camera"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/switch_to_front_camera"
+        android:src="@drawable/switch_camera"
+        android:onClick="clickedSwitchCamera"
+        />
+
+    <ImageButton
+        android:id="@+id/audio_control"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/audio_control_start"
+        android:src="@drawable/ic_mic_white_48dp"
+        android:onClick="clickedAudioControl"
+        />
+
+    <!-- should be at left-most -->
+    <ImageButton
+        android:id="@+id/trash"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/trash"
+        android:src="@drawable/trash"
+        android:onClick="clickedTrash"
+        android:visibility="gone"
+        />
+
+    <ImageButton
+        android:id="@+id/share"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/share"
+        android:src="@drawable/share"
+        android:onClick="clickedShare"
+        android:visibility="gone"
+        />
+
+    <RelativeLayout
+        android:id="@+id/exposure_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/seekbar_background"
+        >
+
+        <!-- alpha set as workaround for Android 7 bug where seekbar doesn't show when rotated -->
+        <SeekBar
+            android:id="@+id/exposure_seekbar"
+            android:contentDescription="@string/exposure_compensation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.9"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dark"
+            android:layout_alignLeft="@+id/exposure_seekbar"
+            android:layout_below="@+id/exposure_seekbar"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bright"
+            android:layout_alignRight="@+id/exposure_seekbar"
+            android:layout_below="@+id/exposure_seekbar"
+            />
+
+    </RelativeLayout>
+
+    <ZoomControls
+        android:id="@+id/exposure_seekbar_zoom"
+        android:contentDescription="@string/exposure_compensation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+    <RelativeLayout
+        android:id="@+id/manual_exposure_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/seekbar_background"
+        >
+
+        <TextView
+            android:id="@+id/iso_seekbar_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/iso"
+            />
+
+        <!-- alpha set as workaround for Android 7 bug where seekbar doesn't show when rotated -->
+        <SeekBar
+            android:id="@+id/iso_seekbar"
+            android:contentDescription="@string/iso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iso_seekbar_text"
+            android:alpha="0.9"
+            />
+
+        <TextView
+            android:id="@+id/exposure_time_seekbar_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iso_seekbar"
+            android:text="@string/exposure_shutter_speed"
+            />
+
+        <!-- alpha set as workaround for Android 7 bug where seekbar doesn't show when rotated -->
+        <SeekBar
+            android:id="@+id/exposure_time_seekbar"
+            android:contentDescription="@string/exposure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/exposure_time_seekbar_text"
+            android:alpha="0.9"
+            />
+
+    </RelativeLayout>
+
+
+    <ImageButton
+        android:id="@+id/flash_auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/flash_mode"
+        android:src="@drawable/flash_auto"
+        android:onClick="clickFlashAuto"
+        android:background="@null"
+        />
+
+    <ImageButton
+        android:id="@+id/hdr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:layout_toRightOf="@+id/flash_auto"
+        android:contentDescription="@string/hdr_info"
+        android:src="@drawable/ic_hdr_off"
+        android:onClick="clickHdrState"
+        android:background="@null"
+        />
+
+    <ImageButton
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:layout_toLeftOf="@+id/settings_dots"
+        android:contentDescription="@string/preference_show_time"
+        android:src="@drawable/sec_off"
+        android:onClick="clickTimer"
+        android:background="@null"
+        />
+
+
+    <ImageButton
+        android:id="@+id/settings_dots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/action_settings"
+        android:src="@drawable/ic_setting"
+        android:onClick="clickedSettingsDots"
+        android:background="@null"
+        />
+
+
+    <ImageButton
+        android:id="@+id/timer_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:visibility="invisible"
+        android:src="@drawable/sec_off"
+        android:onClick="clickTimerOff"
+        android:background="@null"
+        />
+
+
+    <ImageButton
+        android:id="@+id/sec_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_toRightOf="@+id/timer_off"
+        android:scaleType="fitCenter"
+        android:visibility="invisible"
+        android:onClick="clickSecThree"
+        android:src="@drawable/sec_3"
+        android:background="@null"
+        />
+
+    <ImageButton
+        android:id="@+id/sec_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_toRightOf="@+id/sec_3"
+        android:scaleType="fitCenter"
+        android:visibility="invisible"
+        android:src="@drawable/sec_5"
+        android:onClick="clickSecFive"
+        android:background="@null"
+        />
+
+    <ImageButton
+        android:id="@+id/sec_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_toRightOf="@+id/sec_5"
+        android:scaleType="fitCenter"
+        android:visibility="invisible"
+        android:src="@drawable/sec_9"
+        android:onClick="clickSecNine"
+        android:background="@null"
+        />
+
+    <ImageButton
+        android:id="@+id/flash_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:layout_toRightOf="@+id/flash_auto"
+        android:contentDescription="@string/flash_mode"
+        android:src="@drawable/flash_off"
+        android:visibility="invisible"
+        android:onClick="clickFlashOff"
+        android:background="@null"
+        />
+
+
+    <ImageButton
+        android:id="@+id/flash_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:layout_toRightOf="@+id/flash_off"
+        android:contentDescription="@string/flash_mode"
+        android:src="@drawable/flash_on"
+        android:visibility="invisible"
+        android:onClick="clickFlashOn"
+        android:background="@null"
+        />
+
+
+
+
+
+    <FrameLayout
+        android:id="@+id/prefs_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        />
+
+    <FrameLayout
+        android:id="@+id/locker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        />
+
+    <ScrollView
+        android:id="@+id/popup_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/settings"
+        android:layout_below="@+id/settings"
+        />
+
+    <ScrollView
+        android:id="@+id/hide_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="140dp"
+        app:pstsPaddingMiddle="true"
+        />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpPager"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="180dp"
+        android:layout_height="wrap_content">
+
+    </android.support.v4.view.ViewPager>
+
+
+    <include
+        android:id="@+id/settings_gear1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        layout="@layout/settings_gear" />
+
+    <RelativeLayout
+        android:id="@+id/settings_relative"
+        android:layout_width="70dp"
+        android:layout_alignParentRight="true"
+        android:visibility="invisible"
+        android:layout_height="match_parent">
+
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:background="@drawable/back_selector"
+            android:scaleType="fitCenter"
+            android:onClick="clickBackSetting"
+            android:layout_height="wrap_content" />
+
+        <ScrollView
+
+            android:layout_width="70dp"
+            android:layout_marginBottom="170dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/back"
+
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/linearsettings"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_alignParentRight="true"
+                android:gravity="center_horizontal"
+                android:background="@null"
+                android:layout_height="match_parent">
+
+
+                <ImageButton
+                    android:id="@+id/slowmo"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/slowmo"
+                    android:scaleType="fitCenter"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/slow_mo"
+                    android:textSize="10dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:id="@+id/square"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/square_selector"
+                    android:scaleType="fitCenter"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/square"
+                    android:textSize="10dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:id="@+id/longexposure"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/exposure_selector"
+                    android:scaleType="fitCenter"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/long_exposure"
+                    android:gravity="center_horizontal"
+                    android:textSize="10dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:id="@+id/panorama"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/panorama_selector"
+                    android:scaleType="fitCenter"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/panorama"
+                    android:textSize="10dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:id="@+id/gif"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/gif_selector"
+                    android:scaleType="fitCenter"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/gif"
+                    android:textSize="10dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:id="@+id/timelapse"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/gif_selector"
+                    android:scaleType="fitCenter"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/time_lapse"
+                    android:textSize="10dp"
+                    android:gravity="center_horizontal"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:id="@+id/audioimage"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/audioimage_selector"
+                    android:scaleType="fitCenter"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/audio_image"
+                    android:gravity="center_horizontal"
+                    android:textSize="10dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:id="@+id/watermark"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/watermark_selector"
+                    android:scaleType="fitCenter"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/watermark"
+                    android:textSize="10dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:id="@+id/settings_gear"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/settings_icon_selector"
+                    android:scaleType="fitCenter"
+                    android:layout_marginTop="5dp"
+                    android:onClick="clickSettingGear"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/action_settings"
+                    android:textSize="10dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

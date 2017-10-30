@@ -1,0 +1,247 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:2:1-135:12
+	package
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:5:5-31
+		INJECTED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:4:5-29
+		INJECTED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:6:5-35
+supports-screens
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:9:5-164
+	android:largeScreens
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:9:52-79
+	android:smallScreens
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:9:109-136
+	android:normalScreens
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:9:80-108
+	android:xlargeScreens
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:9:23-51
+	android:anyDensity
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:9:137-162
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:12:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:13:5-71
+	android:name
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:13:22-68
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:14:22-76
+uses-permission#android.permission.FLASHLIGHT
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:15:22-66
+uses-feature#android.hardware.camera
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:16:5-60
+	android:name
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:16:19-57
+uses-feature#android.hardware.camera2.full
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:17:5-66
+	android:name
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:17:19-63
+uses-feature#android.hardware.microphone
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:18:5-64
+	android:name
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:18:19-61
+application
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:20:5-134:19
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\FiMobile-JMK\.android\build-cache\a432c15c4d173b23df98ac3ac1f48be0ed865f24\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\FiMobile-JMK\.android\build-cache\a7ef555b06560e9e58ecd6f3bf6fa55101b092b0\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\FiMobile-JMK\.android\build-cache\690c5492c016829ceea0dafd1a7f87db51e52065\output\AndroidManifest.xml:23:5-20
+MERGED from [GIT:library:unspecified] C:\Users\FiMobile-JMK\Documents\GIT\library\build\intermediates\bundles\default\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\FiMobile-JMK\.android\build-cache\935a4c84747c3c0d7edc8a84773c199a9525ce5a\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\FiMobile-JMK\.android\build-cache\21a6e11b5065aa0c146606e7a8f98252d0502dde\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\FiMobile-JMK\.android\build-cache\bf361e65c608575430022331ffc5898c4b5b63f5\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\FiMobile-JMK\.android\build-cache\ace7c5c8f3ccf56fe8ffa98befe3f737611177df\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\FiMobile-JMK\.android\build-cache\a17589b5fd2f90a33e55eb17029fc67ce399a83f\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\FiMobile-JMK\.android\build-cache\92c7b8337a50622c9dc55d15c224006596f2a2ff\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:23:9-41
+	android:allowBackup
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:21:9-35
+	android:icon
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:22:9-43
+	android:largeHeap
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:25:9-33
+	android:theme
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:24:9-59
+activity#net.sourceforge.opencamera.MainActivity
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:28:9-65:20
+	android:clearTaskOnLaunch
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:33:4-36
+	android:screenOrientation
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:31:13-49
+	android:label
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:30:13-45
+	android:configChanges
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:32:4-65
+	android:name
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:29:13-67
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.LAUNCHER
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:36:13-40:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:38:27-74
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:39:17-75
+	android:name
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:39:27-73
+intent-filter#android.intent.category.DEFAULT+android.media.action.IMAGE_CAPTURE
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:41:13-44:29
+action#android.media.action.IMAGE_CAPTURE
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:42:17-77
+	android:name
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:42:25-74
+intent-filter#android.intent.category.DEFAULT+android.media.action.IMAGE_CAPTURE_SECURE
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:45:13-48:29
+action#android.media.action.IMAGE_CAPTURE_SECURE
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:46:17-84
+	android:name
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:46:25-81
+intent-filter#android.intent.category.DEFAULT+android.media.action.STILL_IMAGE_CAMERA
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:49:13-52:29
+action#android.media.action.STILL_IMAGE_CAMERA
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:50:17-82
+	android:name
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:50:25-79
+intent-filter#android.intent.category.DEFAULT+android.media.action.STILL_IMAGE_CAMERA_SECURE
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:53:13-56:29
+action#android.media.action.STILL_IMAGE_CAMERA_SECURE
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:54:17-89
+	android:name
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:54:25-86
+intent-filter#android.intent.category.DEFAULT+android.media.action.VIDEO_CAMERA
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:57:13-60:29
+action#android.media.action.VIDEO_CAMERA
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:58:17-76
+	android:name
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:58:25-73
+intent-filter#android.intent.category.DEFAULT+android.media.action.VIDEO_CAPTURE
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:61:4-64:20
+action#android.media.action.VIDEO_CAPTURE
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:62:5-64
+	android:name
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:62:13-62
+activity#net.sourceforge.opencamera.TakePhoto
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:67:9-76:20
+	android:screenOrientation
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:71:13-49
+	android:label
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:69:13-47
+	android:excludeFromRecents
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:74:4-37
+	android:configChanges
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:72:4-65
+	android:icon
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:70:10-57
+	android:taskAffinity
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:73:4-27
+	android:name
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:68:13-37
+receiver#net.sourceforge.opencamera.MyWidgetProvider
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:78:9-91:14
+	android:label
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:80:7-39
+	android:icon
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:79:7-41
+	android:name
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:81:7-38
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:82:7-84:23
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:83:12-79
+	android:name
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:83:20-76
+meta-data#android.appwidget.provider
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:88:7-90:48
+	android:resource
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:90:10-45
+	android:name
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:89:10-51
+receiver#net.sourceforge.opencamera.MyWidgetProviderTakePhoto
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:93:9-103:14
+	android:label
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:95:13-47
+	android:icon
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:94:7-54
+	android:name
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:96:7-47
+service#net.sourceforge.opencamera.MyTileService
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:105:9-113:19
+	android:label
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:108:13-43
+	android:permission
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:109:13-77
+	android:icon
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:107:13-64
+	android:name
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:106:13-68
+intent-filter#android.service.quicksettings.action.QS_TILE
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:110:13-112:29
+action#android.service.quicksettings.action.QS_TILE
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:111:17-87
+	android:name
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:111:25-84
+service#net.sourceforge.opencamera.MyTileServiceVideo
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:115:9-123:19
+	android:label
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:118:13-49
+	android:permission
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:119:13-77
+	android:icon
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:117:13-60
+	android:name
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:116:13-73
+service#net.sourceforge.opencamera.MyTileServiceFrontCamera
+ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:125:9-133:19
+	android:label
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:128:13-43
+	android:permission
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:129:13-77
+	android:icon
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:127:13-56
+	android:name
+		ADDED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml:126:13-79
+uses-sdk
+INJECTED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\FiMobile-JMK\.android\build-cache\a432c15c4d173b23df98ac3ac1f48be0ed865f24\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\FiMobile-JMK\.android\build-cache\a7ef555b06560e9e58ecd6f3bf6fa55101b092b0\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\FiMobile-JMK\.android\build-cache\690c5492c016829ceea0dafd1a7f87db51e52065\output\AndroidManifest.xml:21:5-43
+MERGED from [GIT:library:unspecified] C:\Users\FiMobile-JMK\Documents\GIT\library\build\intermediates\bundles\default\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\FiMobile-JMK\.android\build-cache\935a4c84747c3c0d7edc8a84773c199a9525ce5a\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\FiMobile-JMK\.android\build-cache\21a6e11b5065aa0c146606e7a8f98252d0502dde\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\FiMobile-JMK\.android\build-cache\bf361e65c608575430022331ffc5898c4b5b63f5\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\FiMobile-JMK\.android\build-cache\ace7c5c8f3ccf56fe8ffa98befe3f737611177df\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\FiMobile-JMK\.android\build-cache\a17589b5fd2f90a33e55eb17029fc67ce399a83f\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\FiMobile-JMK\.android\build-cache\92c7b8337a50622c9dc55d15c224006596f2a2ff\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.2.0] C:\Users\FiMobile-JMK\.android\build-cache\a432c15c4d173b23df98ac3ac1f48be0ed865f24\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\FiMobile-JMK\Documents\GIT\app\src\main\AndroidManifest.xml

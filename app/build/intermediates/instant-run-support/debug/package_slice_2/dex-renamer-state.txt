@@ -1,0 +1,4 @@
+#Mon Oct 30 14:20:22 SGT 2017
+base.0=C\:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2
+renamed.0=classes.dex
+file.0=C\:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2\\classes.dex

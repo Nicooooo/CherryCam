@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\raw\\create_mtb.bc",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\generated\\res\\rs\\debug\\raw\\create_mtb.bc"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\raw\\beep.ogg",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\raw\\beep.ogg"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\raw\\process_hdr.bc",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\generated\\res\\rs\\debug\\raw\\process_hdr.bc"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\raw\\beep_hi.ogg",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\raw\\beep_hi.ogg"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\raw\\histogram_adjust.bc",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\generated\\res\\rs\\debug\\raw\\histogram_adjust.bc"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\raw\\align_mtb.bc",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\generated\\res\\rs\\debug\\raw\\align_mtb.bc"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\raw\\histogram_compute.bc",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\generated\\res\\rs\\debug\\raw\\histogram_compute.bc"
+    }
+]

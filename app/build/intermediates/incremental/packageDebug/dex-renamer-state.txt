@@ -1,0 +1,7 @@
+#Mon Oct 30 14:20:23 SGT 2017
+base.0=C\:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c50463762fe6435ffff046ea0993c072abc241af
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_fc1f92c04ddb0b0c1b3107ab370409c1660f2bf2\\classes.dex
+base.1=C\:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_fc1f92c04ddb0b0c1b3107ab370409c1660f2bf2
+file.0=C\:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c50463762fe6435ffff046ea0993c072abc241af\\classes.dex
