@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/cameraresolution_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Camera resolution"
+        android:textSize="14sp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height=".1dp"
+        android:background="@color/light_grey_bar"/>
+
+    <RelativeLayout
+        android:id="@+id/camera_reso_fourthree"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="4:3"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/fourthree_radio"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height=".1dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/light_grey_bar"
+        />
+    <RelativeLayout
+        android:id="@+id/camera_reso_onesix"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="16:9"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/onesixnine_radio"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height=".1dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/light_grey_bar"
+        />
+
+    <RelativeLayout
+        android:id="@+id/camera_reso_oneone"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="1:1"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/oneone_radio"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_grey_bar"/>
+
+    <Button
+        android:id="@+id/camera_reso_cancel"
+        android:layout_width="match_parent"
+        android:text="Cancel"
+        android:background="?android:attr/listChoiceBackgroundIndicator"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

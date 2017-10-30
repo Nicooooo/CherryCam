@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="seekbar_background">#40000000</color>
+    <color name="light_grey_bar">#e7e2e2</color>
+    <color name="orange">#ff5a00</color>
+
 </resources>

@@ -5,8 +5,163 @@
     android:gravity="bottom"
     android:orientation="vertical">
 
+    <LinearLayout
+        android:id="@+id/layout_focus_top"
+        android:layout_width="300dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        >
+
+        <LinearLayout
+            android:id="@+id/layout_focus_auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/focus_auto"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:gravity="center_vertical"
+                android:text="AUTO"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/focus_macro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingRight="14dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/macro"
+                android:layout_width="17dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:scaleType="fitCenter"
+                android:src="@drawable/macro" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/focus_mountain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingRight="14dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/mountain"
+                android:layout_width="17dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mountain" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_wb_top"
+        android:layout_width="300dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:id="@+id/layout_auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/auto"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:gravity="center_vertical"
+                android:text="AUTO"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_incandescence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingRight="14dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/incandescence"
+                android:layout_width="17dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:scaleType="fitCenter"
+                android:src="@drawable/incandescence" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_daylight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/daylight"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:scaleType="fitCenter"
+                android:src="@drawable/daylight" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_flourescence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingLeft="14dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/flourescence"
+                android:layout_width="17dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:scaleType="fitCenter"
+                android:src="@drawable/flourescence" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_overcast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingRight="7dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/overcast"
+                android:layout_width="17dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:scaleType="fitCenter"
+                android:src="@drawable/overcast" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
     <SeekBar
-        android:id="@+id/seekBar"
+        android:id="@+id/seekBar_wb"
         style="@style/Widget.AppCompat.SeekBar.Discrete"
         android:layout_width="300dp"
         android:layout_height="30dp"
@@ -16,12 +171,75 @@
         android:progressTint="@android:color/transparent"
         android:thumb="@drawable/thumb" />
 
+    <SeekBar
+        android:id="@+id/seekBar_iso"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:max="4"
+        android:progress="0"
+        android:visibility="gone"
+        android:progressTint="@android:color/transparent"
+        android:thumb="@drawable/thumb" />
+
+    <SeekBar
+        android:id="@+id/seekBar_shutter_time"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:max="4"
+        android:progress="0"
+        android:visibility="gone"
+        android:progressTint="@android:color/transparent"
+        android:thumb="@drawable/thumb" />
+
+    <SeekBar
+        android:id="@+id/seekBar_exposure"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:progress="50"
+        android:visibility="gone"
+        android:progressTint="@android:color/transparent"
+        android:thumb="@drawable/thumb" />
+
+
+    <SeekBar
+        android:id="@+id/seekBar_saturation"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:progress="50"
+        android:visibility="gone"
+        android:progressTint="@android:color/transparent"
+        android:thumb="@drawable/thumb" />
+
+    <SeekBar
+        android:id="@+id/seekBar_contrast"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:progress="50"
+        android:visibility="gone"
+        android:progressTint="@android:color/transparent"
+        android:thumb="@drawable/thumb" />
+
+    <SeekBar
+        android:id="@+id/seekBar_focus"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        android:progressTint="@android:color/transparent"
+        android:thumb="@drawable/thumb" />
+
+
     <HorizontalScrollView
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:scrollbars="none"
-        android:layout_marginBottom="10dp">
+        >
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -33,6 +251,7 @@
                 android:layout_height="wrap_content">
 
                 <LinearLayout
+                    android:id="@+id/layout_wb"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
@@ -41,8 +260,9 @@
                         android:id="@+id/wb"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/white_balance_selector"
                         android:scaleType="fitCenter"
+                        android:src="@drawable/whitebalance"
+                        android:background="@null"
                         android:layout_gravity="center_horizontal"/>
 
                     <TextView
@@ -61,15 +281,18 @@
                 android:layout_height="wrap_content">
 
                 <LinearLayout
+                    android:id="@+id/layout_iso"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:id="@+id/iso"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/iso_selector"
                         android:scaleType="fitCenter"
+                        android:background="@null"
+                        android:src="@drawable/iso_selector"
                         android:layout_gravity="center_horizontal"/>
 
                     <TextView
@@ -88,15 +311,18 @@
                 android:layout_height="wrap_content">
 
                 <LinearLayout
+                    android:id="@+id/layout_exposure"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:id="@+id/exposure"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/exposure_selector"
                         android:scaleType="fitCenter"
+                        android:background="@null"
+                        android:src="@drawable/exposure"
                         android:layout_gravity="center_horizontal" />
 
                     <TextView
@@ -114,15 +340,18 @@
                 android:layout_height="wrap_content">
 
                 <LinearLayout
+                    android:id="@+id/layout_shutter"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:id="@+id/shutter"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/shutter_selector"
                         android:scaleType="fitCenter"
+                        android:src="@drawable/shutter"
+                        android:background="@null"
                         android:layout_gravity="center_horizontal" />
 
                     <TextView
@@ -140,15 +369,18 @@
                 android:layout_height="wrap_content">
 
                 <LinearLayout
+                    android:id="@+id/layout_focus"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:id="@+id/focus"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/focus_selector"
                         android:scaleType="fitCenter"
+                        android:background="@null"
+                        android:src="@drawable/focus"
                         android:layout_gravity="center_horizontal" />
 
                     <TextView
@@ -166,15 +398,18 @@
                 android:layout_height="wrap_content">
 
                 <LinearLayout
+                    android:id="@+id/layout_saturation"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:id="@+id/saturation"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/saturation_selector"
                         android:scaleType="fitCenter"
+                        android:background="@null"
+                        android:src="@drawable/saturation"
                         android:layout_gravity="center_horizontal" />
 
                     <TextView
@@ -192,15 +427,18 @@
                 android:layout_height="wrap_content">
 
                 <LinearLayout
+                    android:id="@+id/layout_contrast"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
                     <ImageButton
+                        android:id="@+id/contrast"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/contrast_selector"
                         android:scaleType="fitCenter"
+                        android:background="@null"
+                        android:src="@drawable/contrast"
                         android:layout_gravity="center_horizontal" />
 
                     <TextView

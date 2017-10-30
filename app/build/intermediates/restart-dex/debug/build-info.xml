@@ -6,25 +6,28 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1509344365832"
+    timestamp="1509350682008"
     token="-7247255059337744183"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="5294" />
+        duration="7748" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="4809" />
+        duration="16801" />
     <task
         name="verifier"
-        duration="1555" />
+        duration="9196" />
 
     <artifact
         location="C:\Users\FiMobile-JMK\Documents\GIT\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\FiMobile-JMK\Documents\GIT\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\FiMobile-JMK\Documents\GIT\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -33,19 +36,16 @@
         location="C:\Users\FiMobile-JMK\Documents\GIT\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\FiMobile-JMK\Documents\GIT\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
         location="C:\Users\FiMobile-JMK\Documents\GIT\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\FiMobile-JMK\Documents\GIT\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\FiMobile-JMK\Documents\GIT\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        location="C:\Users\FiMobile-JMK\Documents\GIT\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\FiMobile-JMK\Documents\GIT\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        location="C:\Users\FiMobile-JMK\Documents\GIT\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\FiMobile-JMK\Documents\GIT\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
@@ -62,10 +62,13 @@
 
     <build
         build-mode="FULL"
-        timestamp="1509344365832"
+        timestamp="1509350682008"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\FiMobile-JMK\Documents\GIT\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\FiMobile-JMK\Documents\GIT\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\FiMobile-JMK\Documents\GIT\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -74,19 +77,16 @@
             location="C:\Users\FiMobile-JMK\Documents\GIT\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\FiMobile-JMK\Documents\GIT\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\FiMobile-JMK\Documents\GIT\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\FiMobile-JMK\Documents\GIT\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\FiMobile-JMK\Documents\GIT\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="C:\Users\FiMobile-JMK\Documents\GIT\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\FiMobile-JMK\Documents\GIT\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="C:\Users\FiMobile-JMK\Documents\GIT\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\FiMobile-JMK\Documents\GIT\app\build\intermediates\split-apk\debug\slices\slice_7.apk"

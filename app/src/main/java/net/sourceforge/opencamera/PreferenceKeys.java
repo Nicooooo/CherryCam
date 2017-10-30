@@ -444,5 +444,19 @@ public class PreferenceKeys {
         return "preference_timer_ten";
     }
 
+    public static String getStoragePathState() {
+        return "preference_storage_path";
+    }
+
+    public static  String getCameraResolution(){ return "preference_camera_resolution"; }
+
+    public static  String getCameraBrightness(){ return "preference_camera_brightness"; }
+
+    public static  String getBitrate(){ return "preference_bitrate"; }
+
+    public static  String getTimerPicture(){ return "preference_timer_picture"; }
+
+    public static  String getThemeColor(){ return "preference_theme_color"; }
+
     public static String getProModePreferenceKey() {return "preference_promode";}
 }

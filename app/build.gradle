@@ -13,9 +13,9 @@ android {
         minSdkVersion 15
         targetSdkVersion 24
 
-		renderscriptTargetApi 20
-		//renderscriptSupportModeEnabled true // don't use support library as it bloats the APK, and we don't need pre-4.4 support
-		//need build tools higher than 20 at least to support ScriptIntrinsicHistogram
+        renderscriptTargetApi 20
+        //renderscriptSupportModeEnabled true // don't use support library as it bloats the APK, and we don't need pre-4.4 support
+        //need build tools higher than 20 at least to support ScriptIntrinsicHistogram
 
         testApplicationId "net.sourceforge.opencamera.test"
         testInstrumentationRunner "android.test.InstrumentationTestRunner"
@@ -42,7 +42,9 @@ repositories {
 
 dependencies {
     compile 'com.android.support:appcompat-v7:24.2.0'
-    compile 'com.android.support:support-v4:24.0.0'
+    compile 'com.android.support:support-v4:24.2.0'
+    compile 'com.android.support:design:24.2.0'
+
     //    compile 'com.android.support:support-v4:+'
     testCompile 'junit:junit:4.12'
     //    compile 'com.ogaclejapan.smarttablayout:library:1.6.1@aar'

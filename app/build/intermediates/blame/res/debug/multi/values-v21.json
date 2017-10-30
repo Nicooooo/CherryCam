@@ -16,10 +16,10 @@
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 286,
+                        "startOffset": 279,
                         "endLine": 10,
                         "endColumn": 12,
-                        "endOffset": 515
+                        "endOffset": 505
                     }
                 }
             },
@@ -1767,17 +1767,38 @@
                     "startOffset": 18681,
                     "endLine": 259,
                     "endColumn": 12,
-                    "endOffset": 18935
+                    "endOffset": 18870
+                },
+                "from": {
+                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\acab9f8da8f1cffea9ddad5923e4af8392dde2eb\\output\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 4,
+                        "endColumn": 12,
+                        "endOffset": 244
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 260,
+                    "startColumn": 4,
+                    "startOffset": 18875,
+                    "endLine": 262,
+                    "endColumn": 12,
+                    "endOffset": 19129
                 },
                 "from": {
                     "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-v21\\styles.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 521,
+                        "startOffset": 510,
                         "endLine": 13,
                         "endColumn": 12,
-                        "endOffset": 777
+                        "endOffset": 764
                     }
                 }
             }

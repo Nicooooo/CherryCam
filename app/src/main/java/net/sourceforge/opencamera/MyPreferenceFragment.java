@@ -164,7 +164,7 @@ public class MyPreferenceFragment extends PreferenceFragment implements OnShared
 								@Override
 								public void onClick(DialogInterface dialog, int which) {
 				            		if( MyDebug.LOG )
-				            			Log.d(TAG, "user clicked dont_show_again for raw info dialog");
+				            			Log.d(TAG, "user clicked dont_show_again for raw info ");
 				            		SharedPreferences.Editor editor = sharedPreferences.edit();
 				            		editor.putBoolean(PreferenceKeys.getRawInfoPreferenceKey(), true);
 				            		editor.apply();

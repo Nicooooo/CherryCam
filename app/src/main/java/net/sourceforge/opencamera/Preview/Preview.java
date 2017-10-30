@@ -952,10 +952,10 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
 
 	private void closeCamera() {
 		long debug_time = 0;
-		if( MyDebug.LOG ) {
+//		if( MyDebug.LOG ) {
 			Log.d(TAG, "closeCamera()");
 			debug_time = System.currentTimeMillis();
-		}
+//		}
 		removePendingContinuousFocusReset();
 		has_focus_area = false;
 		focus_success = FOCUS_DONE;
@@ -1022,10 +1022,10 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
 	
 	public void pausePreview() {
 		long debug_time = 0;
-		if( MyDebug.LOG ) {
+//		if( MyDebug.LOG ) {
 			Log.d(TAG, "pausePreview()");
 			debug_time = System.currentTimeMillis();
-		}
+//		}
 		if( camera_controller == null ) {
 			if( MyDebug.LOG )
 				Log.d(TAG, "camera not opened!");
@@ -1056,7 +1056,7 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
 
 	/** Try to open the camera. Should only be called if camera_controller==null.
 	 */
-	private void openCamera() {
+	public void openCamera() {
 		long debug_time = 0;
 		if( MyDebug.LOG ) {
 			Log.d(TAG, "openCamera()");
@@ -3761,7 +3761,7 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
     		}
 
 			boolean enable_sound = applicationInterface.getShutterSoundPref();
-			if( MyDebug.LOG )
+//			if( MyDebug.LOG )
 				Log.d(TAG, "enable_sound? " + enable_sound);
 			camera_controller.enableShutterSound(enable_sound); // Camera2 API can disable video sound too
     		video_recorder = new MediaRecorder();
