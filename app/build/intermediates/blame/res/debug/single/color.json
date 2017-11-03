@@ -1,35 +1,27 @@
 [
     {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
-        "source": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\color\\abc_tint_spinner.xml"
-    },
-    {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
         "source": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\color\\abc_tint_edittext.xml"
     },
     {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\color\\abc_primary_text_material_dark.xml"
-    },
-    {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\color\\abc_tint_default.xml"
     },
     {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
         "source": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\color\\abc_secondary_text_material_dark.xml"
-    },
-    {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
-    },
-    {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
         "source": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\color\\abc_tint_switch_thumb.xml"
     },
     {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
@@ -40,12 +32,12 @@
         "source": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\color\\switch_thumb_material_light.xml"
     },
     {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\color\\abc_search_url_text.xml"
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\color\\abc_tint_spinner.xml"
     },
     {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\color\\abc_tint_seek_thumb.xml"
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
@@ -56,16 +48,100 @@
         "source": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
-        "source": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\color\\abc_tint_switch_track.xml"
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\acab9f8da8f1cffea9ddad5923e4af8392dde2eb\\output\\res\\color\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
         "source": "C:\\Users\\CTI OVS\\.android\\build-cache\\5fea89678beded963d101d5ee2ec7e3f33ecac81\\output\\res\\color\\design_tint_password_toggle.xml"
     },
     {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
         "source": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\color\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\acab9f8da8f1cffea9ddad5923e4af8392dde2eb\\output\\res\\color\\design_error.xml"
+    },
+    {
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",

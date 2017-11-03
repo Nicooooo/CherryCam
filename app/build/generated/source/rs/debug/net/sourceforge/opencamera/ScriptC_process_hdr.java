@@ -16,13 +16,13 @@
 
 /*
  * This file is auto-generated. DO NOT MODIFY!
- * The source Renderscript file: E:\\10-09-17\\Procamera\\app\\src\\main\\rs\\process_hdr.rs
+ * The source Renderscript file: C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\rs\\process_hdr.rs
  */
 
 package net.sourceforge.opencamera;
 
 import android.renderscript.*;
-import net.sourceforge.opencamera.process_hdrBitCode;
+import android.content.res.Resources;
 
 /**
  * @hide
@@ -31,10 +31,15 @@ public class ScriptC_process_hdr extends ScriptC {
     private static final String __rs_resource_name = "process_hdr";
     // Constructor
     public  ScriptC_process_hdr(RenderScript rs) {
-        super(rs,
-              __rs_resource_name,
-              process_hdrBitCode.getBitCode32(),
-              process_hdrBitCode.getBitCode64());
+        this(rs,
+             rs.getApplicationContext().getResources(),
+             rs.getApplicationContext().getResources().getIdentifier(
+                 __rs_resource_name, "raw",
+                 rs.getApplicationContext().getPackageName()));
+    }
+
+    public  ScriptC_process_hdr(RenderScript rs, Resources resources, int id) {
+        super(rs, resources, id);
         __ALLOCATION = Element.ALLOCATION(rs);
         mExportVar_offset_x0 = 0;
         __I32 = Element.I32(rs);

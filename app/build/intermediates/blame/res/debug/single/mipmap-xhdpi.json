@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
         "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     }

@@ -2,5 +2,9 @@
     {
         "merged": "E:\\10-09-17\\Procamera\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\psts_tab.xml",
         "source": "E:\\10-09-17\\Procamera\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\psts_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\psts_tab.xml",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\psts_tab.xml"
     }
 ]

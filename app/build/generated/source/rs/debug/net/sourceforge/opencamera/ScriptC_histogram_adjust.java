@@ -16,13 +16,13 @@
 
 /*
  * This file is auto-generated. DO NOT MODIFY!
- * The source Renderscript file: E:\\10-09-17\\Procamera\\app\\src\\main\\rs\\histogram_adjust.rs
+ * The source Renderscript file: C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\rs\\histogram_adjust.rs
  */
 
 package net.sourceforge.opencamera;
 
 import android.renderscript.*;
-import net.sourceforge.opencamera.histogram_adjustBitCode;
+import android.content.res.Resources;
 
 /**
  * @hide
@@ -31,10 +31,15 @@ public class ScriptC_histogram_adjust extends ScriptC {
     private static final String __rs_resource_name = "histogram_adjust";
     // Constructor
     public  ScriptC_histogram_adjust(RenderScript rs) {
-        super(rs,
-              __rs_resource_name,
-              histogram_adjustBitCode.getBitCode32(),
-              histogram_adjustBitCode.getBitCode64());
+        this(rs,
+             rs.getApplicationContext().getResources(),
+             rs.getApplicationContext().getResources().getIdentifier(
+                 __rs_resource_name, "raw",
+                 rs.getApplicationContext().getPackageName()));
+    }
+
+    public  ScriptC_histogram_adjust(RenderScript rs, Resources resources, int id) {
+        super(rs, resources, id);
         __ALLOCATION = Element.ALLOCATION(rs);
         mExportVar_n_tiles = 0;
         __I32 = Element.I32(rs);

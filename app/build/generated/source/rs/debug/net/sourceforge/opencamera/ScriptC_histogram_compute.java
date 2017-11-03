@@ -16,13 +16,13 @@
 
 /*
  * This file is auto-generated. DO NOT MODIFY!
- * The source Renderscript file: E:\\10-09-17\\Procamera\\app\\src\\main\\rs\\histogram_compute.rs
+ * The source Renderscript file: C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\rs\\histogram_compute.rs
  */
 
 package net.sourceforge.opencamera;
 
 import android.renderscript.*;
-import net.sourceforge.opencamera.histogram_computeBitCode;
+import android.content.res.Resources;
 
 /**
  * @hide
@@ -31,10 +31,15 @@ public class ScriptC_histogram_compute extends ScriptC {
     private static final String __rs_resource_name = "histogram_compute";
     // Constructor
     public  ScriptC_histogram_compute(RenderScript rs) {
-        super(rs,
-              __rs_resource_name,
-              histogram_computeBitCode.getBitCode32(),
-              histogram_computeBitCode.getBitCode64());
+        this(rs,
+             rs.getApplicationContext().getResources(),
+             rs.getApplicationContext().getResources().getIdentifier(
+                 __rs_resource_name, "raw",
+                 rs.getApplicationContext().getPackageName()));
+    }
+
+    public  ScriptC_histogram_compute(RenderScript rs, Resources resources, int id) {
+        super(rs, resources, id);
         __U8_4 = Element.U8_4(rs);
     }
 
@@ -70,10 +75,6 @@ public class ScriptC_histogram_compute extends ScriptC {
     }
 
     private final static int mExportFuncIdx_init_histogram = 0;
-    public Script.InvokeID getInvokeID_init_histogram() {
-        return createInvokeID(mExportFuncIdx_init_histogram);
-    }
-
     public void invoke_init_histogram() {
         invoke(mExportFuncIdx_init_histogram);
     }

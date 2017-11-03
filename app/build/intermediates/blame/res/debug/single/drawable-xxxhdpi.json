@@ -8,12 +8,12 @@
         "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_timer.png"
     },
     {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_burst_mode_white_48dp.png",
-        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_burst_mode_white_48dp.png"
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\contrast_pressed.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\contrast_pressed.png"
     },
     {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\focus.png",
-        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\focus.png"
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_burst_mode_white_48dp.png",
+        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_burst_mode_white_48dp.png"
     },
     {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_more_horiz_white_48dp.png",
@@ -24,16 +24,24 @@
         "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\mountain.png"
     },
     {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\exposure_pressed.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\exposure_pressed.png"
+    },
+    {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\focus_pressed.png",
         "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\focus_pressed.png"
     },
     {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\flourescence.png",
-        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\flourescence.png"
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\square.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\square.png"
     },
     {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_save_white_48dp.png",
-        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_save_white_48dp.png"
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\whitebalance.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\whitebalance.png"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_info_outline_white_48dp.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_info_outline_white_48dp.png"
     },
     {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_hdr_on.png",
@@ -44,6 +52,10 @@
         "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\square_pressed.png"
     },
     {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_timer_white_48dp.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_timer_white_48dp.png"
+    },
+    {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_timer_white_48dp.png",
         "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_timer_white_48dp.png"
     },
@@ -52,24 +64,28 @@
         "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_photo_camera_white_48dp.png"
     },
     {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_photo_size_select_large_white_48dp.png",
-        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_photo_size_select_large_white_48dp.png"
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_help_outline_white_48dp.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_help_outline_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\saturation.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\saturation.png"
     },
     {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\saturation_pressed.png",
         "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\saturation_pressed.png"
     },
     {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\whitebalance.png",
-        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\whitebalance.png"
-    },
-    {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_setting.png",
         "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_setting.png"
     },
     {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\exposure_pressed.png",
-        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\exposure_pressed.png"
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\contrast.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\contrast.png"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\flourescence.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\flourescence.png"
     },
     {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\contrast_pressed.png",
@@ -80,36 +96,144 @@
         "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\whitebalance_pressed.png"
     },
     {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\square.png",
-        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\square.png"
-    },
-    {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_power_settings_new_white_48dp.png",
         "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_power_settings_new_white_48dp.png"
     },
     {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\saturation.png",
-        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\saturation.png"
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_exposure_white_48dp.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_exposure_white_48dp.png"
     },
     {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_hdr_off.png",
         "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_hdr_off.png"
     },
     {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_touch_app_white_48dp.png",
-        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_touch_app_white_48dp.png"
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_hdr_on.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_hdr_on.png"
     },
     {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\contrast.png",
-        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\contrast.png"
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_videocam_white_48dp.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_videocam_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_hdr_off.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_hdr_off.png"
     },
     {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_info_outline_white_48dp.png",
         "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_info_outline_white_48dp.png"
     },
     {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\focus_pressed.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\focus_pressed.png"
+    },
+    {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_pause_circle_outline_white_48dp.png",
         "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_pause_circle_outline_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\focus.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\focus.png"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_photo_size_select_large_white_48dp.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_photo_size_select_large_white_48dp.png"
+    },
+    {
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\focus.png",
+        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\focus.png"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\mountain.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\mountain.png"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_timer.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_timer.png"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_burst_mode_white_48dp.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_burst_mode_white_48dp.png"
+    },
+    {
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\flourescence.png",
+        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\flourescence.png"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\whitebalance_pressed.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\whitebalance_pressed.png"
+    },
+    {
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_save_white_48dp.png",
+        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_save_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_setting.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_setting.png"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_more_horiz_white_48dp.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_more_horiz_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_face_white_48dp.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_face_white_48dp.png"
+    },
+    {
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_photo_size_select_large_white_48dp.png",
+        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_photo_size_select_large_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_pause_circle_outline_white_48dp.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_pause_circle_outline_white_48dp.png"
+    },
+    {
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\whitebalance.png",
+        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\whitebalance.png"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_touch_app_white_48dp.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_touch_app_white_48dp.png"
+    },
+    {
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\exposure_pressed.png",
+        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\exposure_pressed.png"
+    },
+    {
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\square.png",
+        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\square.png"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\square_pressed.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\square_pressed.png"
+    },
+    {
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\saturation.png",
+        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\saturation.png"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_photo_camera_white_48dp.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_photo_camera_white_48dp.png"
+    },
+    {
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\contrast.png",
+        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\contrast.png"
+    },
+    {
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_touch_app_white_48dp.png",
+        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_touch_app_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\saturation_pressed.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\saturation_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_power_settings_new_white_48dp.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_power_settings_new_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_save_white_48dp.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_save_white_48dp.png"
     },
     {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_face_white_48dp.png",

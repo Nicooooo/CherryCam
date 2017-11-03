@@ -4,11 +4,23 @@
         "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\xml\\preferences.xml"
     },
     {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\xml\\widget_info.xml",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\xml\\widget_info.xml"
+    },
+    {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\xml\\widget_info_take_photo.xml",
         "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\xml\\widget_info_take_photo.xml"
     },
     {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\xml\\preferences.xml"
+    },
+    {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\xml\\widget_info.xml",
         "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\xml\\widget_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\xml\\widget_info_take_photo.xml",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\xml\\widget_info_take_photo.xml"
     }
 ]

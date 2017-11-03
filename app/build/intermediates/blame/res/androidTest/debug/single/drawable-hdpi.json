@@ -2,5 +2,9 @@
     {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi\\ic_launcher.png",
         "source": "E:\\10-09-17\\Procamera\\app\\src\\androidTest\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\androidTest\\res\\drawable-hdpi\\ic_launcher.png"
     }
 ]

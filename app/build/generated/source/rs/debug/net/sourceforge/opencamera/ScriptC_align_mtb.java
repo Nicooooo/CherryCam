@@ -16,13 +16,13 @@
 
 /*
  * This file is auto-generated. DO NOT MODIFY!
- * The source Renderscript file: E:\\10-09-17\\Procamera\\app\\src\\main\\rs\\align_mtb.rs
+ * The source Renderscript file: C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\rs\\align_mtb.rs
  */
 
 package net.sourceforge.opencamera;
 
 import android.renderscript.*;
-import net.sourceforge.opencamera.align_mtbBitCode;
+import android.content.res.Resources;
 
 /**
  * @hide
@@ -31,10 +31,15 @@ public class ScriptC_align_mtb extends ScriptC {
     private static final String __rs_resource_name = "align_mtb";
     // Constructor
     public  ScriptC_align_mtb(RenderScript rs) {
-        super(rs,
-              __rs_resource_name,
-              align_mtbBitCode.getBitCode32(),
-              align_mtbBitCode.getBitCode64());
+        this(rs,
+             rs.getApplicationContext().getResources(),
+             rs.getApplicationContext().getResources().getIdentifier(
+                 __rs_resource_name, "raw",
+                 rs.getApplicationContext().getPackageName()));
+    }
+
+    public  ScriptC_align_mtb(RenderScript rs, Resources resources, int id) {
+        super(rs, resources, id);
         __ALLOCATION = Element.ALLOCATION(rs);
         mExportVar_step_size = 1;
         __I32 = Element.I32(rs);
@@ -154,10 +159,6 @@ public class ScriptC_align_mtb extends ScriptC {
     }
 
     private final static int mExportFuncIdx_init_errors = 0;
-    public Script.InvokeID getInvokeID_init_errors() {
-        return createInvokeID(mExportFuncIdx_init_errors);
-    }
-
     public void invoke_init_errors() {
         invoke(mExportFuncIdx_init_errors);
     }
