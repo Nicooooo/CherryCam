@@ -1,5 +1,495 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="flash_entries">
+        <item>Ohne Blitz</item>
+        <item>Automatischer Blitz</item>
+        <item>Mit Blitz</item>
+        <item>Taschenlampe</item>
+        <item>Rote Augen-Reduktion</item>
+        <item>Screen Flash Auto</item>
+        <item>Screen Flash On</item>
+    </string-array>
+    <string-array name="flash_icons">
+        <item>drawable/flash_off</item>
+        <item>drawable/flash_auto</item>
+        <item>drawable/flash_on</item>
+        <item>drawable/flash_torch</item>
+        <item>drawable/flash_red_eye</item>
+        <item>drawable/flash_auto</item>
+        <item>drawable/flash_on</item>
+    </string-array>
+    <string-array name="flash_values">
+        <item>flash_off</item>
+        <item>flash_auto</item>
+        <item>flash_on</item>
+        <item>flash_torch</item>
+        <item>flash_red_eye</item>
+        <item>flash_frontscreen_auto</item>
+        <item>flash_frontscreen_on</item>
+    </string-array>
+    <string-array name="focus_mode_entries">
+        <item>Autofokus</item>
+        <item>Unendlicher Fokus</item>
+        <item>Makro-Fokus</item>
+        <item>Fokus gesperrt</item>
+        <item>Manueller Fokus</item>
+        <item>Fester Fokus</item>
+        <item>Full-Fokus</item>
+        <item>Kontinuierlicher Fokus</item>
+        <item>Kontinuierlicher Fokus</item>
+    </string-array>
+    <string-array name="focus_mode_icons">
+        <item>drawable/focus_mode_auto</item>
+        <item>drawable/focus_mode_infinity</item>
+        <item>drawable/focus_mode_macro</item>
+        <item>drawable/focus_mode_locked</item>
+        <item>drawable/focus_mode_manual</item>
+        <item>drawable/focus_mode_fixed</item>
+        <item>drawable/focus_mode_edof</item>
+        <item>drawable/focus_mode_continuous_picture</item>
+        <item>drawable/focus_mode_continuous_video</item>
+    </string-array>
+    <string-array name="focus_mode_values">
+        <item>focus_mode_auto</item>
+        <item>focus_mode_infinity</item>
+        <item>focus_mode_macro</item>
+        <item>focus_mode_locked</item>
+        <item>focus_mode_manual2</item>
+        <item>focus_mode_fixed</item>
+        <item>focus_mode_edof</item>
+        <item>focus_mode_continuous_picture</item>
+        <item>focus_mode_continuous_video</item>
+    </string-array>
+    <string-array name="preference_angle_highlight_color_entries">
+        <item>Rot</item>
+        <item>Grün</item>
+        <item>Blau</item>
+        <item>Gelb</item>
+        <item>Violett</item>
+        <item>Weiß</item>
+    </string-array>
+    <string-array name="preference_angle_highlight_color_values">
+        <item>#f44336</item> <!-- Red 500 -->
+        <item>#14e715</item> <!-- Green A400 -->
+        <item>#2196f3</item> <!-- Blue 500 -->
+        <item>#ffeb3b</item> <!-- Yellow 500 -->
+        <item>#9c27b0</item> <!-- Purple 500 -->
+        <item>#ffffff</item> <!-- White -->
+    </string-array>
+    <string-array name="preference_burst_interval_entries">
+        <item>Keine Verzögerung</item>
+        <item>1s</item>
+        <item>2s</item>
+        <item>3s</item>
+        <item>5s</item>
+        <item>10s</item>
+        <item>15s</item>
+        <item>20s</item>
+        <item>30s</item>
+        <item>1m</item>
+        <item>2m</item>
+        <item>5m</item>
+        <item>10m</item>
+        <item>20m</item>
+        <item>30m</item>
+        <item>1h</item>
+        <item>2h</item>
+    </string-array>
+    <string-array name="preference_burst_interval_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1200</item>
+        <item>1800</item>
+        <item>3600</item>
+        <item>7200</item>
+    </string-array>
+    <string-array name="preference_burst_mode_entries">
+        <item>Aus</item>
+        <item>2x</item>
+        <item>3x</item>
+        <item>4x</item>
+        <item>5x</item>
+        <item>10x</item>
+        <item>Unbegrenzt</item>
+    </string-array>
+    <string-array name="preference_burst_mode_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>10</item>
+        <item>unlimited</item>
+    </string-array>
+    <string-array name="preference_crop_guide_entries">
+        <item>Keine Hilfslinien</item>
+        <item>1,0 (1:1)</item>
+        <item>1,25 (5:4)</item>
+        <item>1,33 (4:3)</item>
+        <item>1,4 (7:4)</item>
+        <item>1,5 (3:2)</item>
+        <item>1,78 (16:9)</item>
+        <item>1,85 (37:20)</item>
+        <item>2,33 (21:9)</item>
+        <item>2,35 (47:20)</item>
+        <item>2,4 (12:5)</item>
+    </string-array>
+    <string-array name="preference_crop_guide_values">
+        <item>crop_guide_none</item>
+        <item>crop_guide_1</item>
+        <item>crop_guide_1.25</item>
+        <item>crop_guide_1.33</item>
+        <item>crop_guide_1.4</item>
+        <item>crop_guide_1.5</item>
+        <item>crop_guide_1.78</item>
+        <item>crop_guide_1.85</item>
+        <item>crop_guide_2.33</item>
+        <item>crop_guide_2.35</item>
+        <item>crop_guide_2.4</item>
+    </string-array>
+    <string-array name="preference_grid_entries">
+        <item>Keiner</item>
+        <item>3x3</item>
+        <item>3x3 Goldener Schnitt</item>
+        <item>4x2</item>
+        <item>Fadenkreuz</item>
+        <item>Goldene Spirale 1</item>
+        <item>Goldene Spirale 2</item>
+        <item>Goldene Spirale 3</item>
+        <item>Goldene Spirale 4</item>
+        <item>Triangel 1</item>
+        <item>Triangel 2</item>
+        <item>Diagonalen</item>
+    </string-array>
+    <string-array name="preference_grid_values">
+        <item>preference_grid_none</item>
+        <item>preference_grid_3x3</item>
+        <item>preference_grid_phi_3x3</item>
+        <item>preference_grid_4x2</item>
+        <item>preference_grid_crosshair</item>
+        <item>preference_grid_golden_spiral_right</item>
+        <item>preference_grid_golden_spiral_left</item>
+        <item>preference_grid_golden_spiral_upside_down_right</item>
+        <item>preference_grid_golden_spiral_upside_down_left</item>
+        <item>preference_grid_golden_triangle_1</item>
+        <item>preference_grid_golden_triangle_2</item>
+        <item>preference_grid_diagonals</item>
+    </string-array>
+    <string-array name="preference_immersive_mode_entries">
+        <item>Nichts ausblenden</item>
+        <item>Nur Navigationstasten ausblenden</item>
+        <item>Alle Einstellelemente ausblenden</item>
+        <item>Alles ausblenden</item>
+    </string-array>
+    <string-array name="preference_immersive_mode_values">
+        <item>immersive_mode_off</item>
+        <item>immersive_mode_low_profile</item>
+        <item>immersive_mode_gui</item>
+        <item>immersive_mode_everything</item>
+    </string-array>
+    <string-array name="preference_lock_orientation_entries">
+        <item>Keine Sperre</item>
+        <item>Querformat</item>
+        <item>Hochformat</item>
+    </string-array>
+    <string-array name="preference_lock_orientation_values">
+        <item>none</item>
+        <item>landscape</item>
+        <item>portrait</item>
+    </string-array>
+    <string-array name="preference_preview_size_entries">
+        <item>Vorschaugröße maximieren</item>
+        <item>Vorschau auf Fotogröße (WYSIWYG)</item>
+    </string-array>
+    <string-array name="preference_preview_size_values">
+        <item>preference_preview_size_display</item>
+        <item>preference_preview_size_wysiwyg</item>
+    </string-array>
+    <string-array name="preference_record_audio_channels_entries">
+        <item>Standard</item>
+        <item>Mono</item>
+        <item>Stereo (sofern vom Gerät unterstützt)</item>
+    </string-array>
+    <string-array name="preference_record_audio_channels_values">
+        <item>audio_default</item>
+        <item>audio_mono</item>
+        <item>audio_stereo</item>
+    </string-array>
+    <string-array name="preference_record_audio_src_entries">
+        <item>Camcorder</item>
+        <item>Externes Mikrofon</item>
+        <item>Standard-Audioquelle</item>
+        <item>Optimiert für Stimme</item>
+    </string-array>
+    <string-array name="preference_record_audio_src_values">
+        <item>audio_src_camcorder</item>
+        <item>audio_src_mic</item>
+        <item>audio_src_default</item>
+        <item>audio_src_voice_communication</item>
+    </string-array>
+    <string-array name="preference_rotate_preview_entries">
+        <item>Nicht drehen</item>
+        <item>Um 180° drehen</item>
+    </string-array>
+    <string-array name="preference_rotate_preview_values">
+        <item>0</item>
+        <item>180</item>
+    </string-array>
+    <string-array name="preference_stamp_dateformat_entries">
+        <item>Standard</item>
+        <item>JJJJ/MM/TT</item>
+        <item>TT/MM/JJJJ</item>
+        <item>MM/TT/JJJJ</item>
+        <item>Kein Datum-Stempel</item>
+    </string-array>
+    <string-array name="preference_stamp_dateformat_values">
+        <item>preference_stamp_dateformat_default</item>
+        <item>preference_stamp_dateformat_yyyymmdd</item>
+        <item>preference_stamp_dateformat_ddmmyyyy</item>
+        <item>preference_stamp_dateformat_mmddyyyy</item>
+        <item>preference_stamp_dateformat_none</item>
+    </string-array>
+    <string-array name="preference_stamp_entries">
+        <item>Kein Stempel</item>
+        <item>Fotos stempeln</item>
+    </string-array>
+    <string-array name="preference_stamp_fontsize_entries">
+        <item>6</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+    </string-array>
+    <string-array name="preference_stamp_fontsize_values">
+        <item>6</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+    </string-array>
+    <string-array name="preference_stamp_gpsformat_entries">
+        <item>Standard</item>
+        <item>Grad/Minuten/Sekunden</item>
+        <item>Kein GPS-Stempel</item>
+    </string-array>
+    <string-array name="preference_stamp_gpsformat_values">
+        <item>preference_stamp_gpsformat_default</item>
+        <item>preference_stamp_gpsformat_dms</item>
+        <item>preference_stamp_gpsformat_none</item>
+    </string-array>
+    <string-array name="preference_stamp_style_entries">
+        <item>Schattierter Text</item>
+        <item>Normaler Text</item>
+    </string-array>
+    <string-array name="preference_stamp_style_values">
+        <item>preference_stamp_style_shadowed</item>
+        <item>preference_stamp_style_plain</item>
+    </string-array>
+    <string-array name="preference_stamp_timeformat_entries">
+        <item>Standard</item>
+        <item>12-Stunden-Format</item>
+        <item>24-Stunden-Format</item>
+        <item>Kein Zeitstempel</item>
+    </string-array>
+    <string-array name="preference_stamp_timeformat_values">
+        <item>preference_stamp_timeformat_default</item>
+        <item>preference_stamp_timeformat_12hour</item>
+        <item>preference_stamp_timeformat_24hour</item>
+        <item>preference_stamp_timeformat_none</item>
+    </string-array>
+    <string-array name="preference_stamp_values">
+        <item>preference_stamp_no</item>
+        <item>preference_stamp_yes</item>
+    </string-array>
+    <string-array name="preference_timer_entries">
+        <item>Aus</item>
+        <item>1s</item>
+        <item>2s</item>
+        <item>3s</item>
+        <item>5s</item>
+        <item>10s</item>
+        <item>15s</item>
+        <item>20s</item>
+        <item>30s</item>
+        <item>1m</item>
+        <item>2m</item>
+        <item>5m</item>
+    </string-array>
+    <string-array name="preference_timer_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>300</item>
+    </string-array>
+    <string-array name="preference_touch_capture_entries">
+        <item>Aus</item>
+        <item>Einfaches tippen</item>
+        <item>Doppeltes tippen</item>
+    </string-array>
+    <string-array name="preference_touch_capture_values">
+        <item>none</item>
+        <item>single</item>
+        <item>double</item>
+    </string-array>
+    <string-array name="preference_ui_placement_entries">
+        <item>Oberfläche für Linkshänder</item>
+        <item>Oberfläche für Rechtshänder</item>
+    </string-array>
+    <string-array name="preference_ui_placement_values">
+        <item>ui_left</item>
+        <item>ui_right</item>
+    </string-array>
+    <string-array name="preference_video_bitrate_entries">
+        <item>Standard</item>
+        <item>100kbps</item>
+        <item>200kbps</item>
+        <item>500kbps</item>
+        <item>1Mbps</item>
+        <item>2Mbps</item>
+        <item>3Mbps</item>
+        <item>4Mbps</item>
+        <item>5Mbps</item>
+        <item>6Mbps</item>
+        <item>7Mbps</item>
+        <item>8Mbps</item>
+        <item>9Mbps</item>
+        <item>10Mbps</item>
+        <item>15Mbps</item>
+        <item>20Mbps</item>
+        <item>30Mbps</item>
+        <item>40Mbps</item>
+        <item>50Mbps</item>
+        <item>60Mbps</item>
+        <item>70Mbps</item>
+        <item>80Mbps</item>
+        <item>90Mbps</item>
+        <item>100Mbps</item>
+    </string-array>
+    <string-array name="preference_video_bitrate_values">
+        <item>default</item>
+        <item>100000</item>
+        <item>200000</item>
+        <item>500000</item>
+        <item>1000000</item>
+        <item>2000000</item>
+        <item>3000000</item>
+        <item>4000000</item>
+        <item>5000000</item>
+        <item>6000000</item>
+        <item>7000000</item>
+        <item>8000000</item>
+        <item>9000000</item>
+        <item>10000000</item>
+        <item>15000000</item>
+        <item>20000000</item>
+        <item>30000000</item>
+        <item>40000000</item>
+        <item>50000000</item>
+        <item>60000000</item>
+        <item>70000000</item>
+        <item>80000000</item>
+        <item>90000000</item>
+        <item>100000000</item>
+    </string-array>
+    <string-array name="preference_video_fps_entries">
+        <item>Standard</item>
+        <item>15</item>
+        <item>24</item>
+        <item>25</item>
+        <item>30</item>
+        <item>60</item>
+        <item>96</item>
+        <item>100</item>
+        <item>120</item>
+    </string-array>
+    <string-array name="preference_video_fps_values">
+        <item>default</item>
+        <item>15</item>
+        <item>24</item>
+        <item>25</item>
+        <item>30</item>
+        <item>60</item>
+        <item>96</item>
+        <item>100</item>
+        <item>120</item>
+    </string-array>
+    <string-array name="preference_video_restart_entries">
+        <item>Kein Neustart</item>
+        <item>1x</item>
+        <item>2x</item>
+        <item>3x</item>
+        <item>4x</item>
+        <item>5x</item>
+        <item>6x</item>
+        <item>7x</item>
+        <item>8x</item>
+        <item>9x</item>
+        <item>10x</item>
+    </string-array>
+    <string-array name="preference_video_restart_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="preference_volume_keys_entries">
+        <item>Foto aufnehmen oder Videoaufnahme starten/stoppen</item>
+        <item>Fokus</item>
+        <item>Zoom +/-</item>
+        <item>Belichtung einstellen</item>
+        <item>Auto-Stabilisierung an-/ausschalten</item>
+        <item>Lautstärke einstellen</item>
+        <item>Keine Funktion</item>
+    </string-array>
+    <string-array name="preference_volume_keys_values">
+        <item>volume_take_photo</item>
+        <item>volume_focus</item>
+        <item>volume_zoom</item>
+        <item>volume_exposure</item>
+        <item>volume_auto_stabilise</item>
+        <item>volume_nothing</item><!-- actually means change device volume! -->
+        <item>volume_really_nothing</item>
+    </string-array>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Zur Startseite"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s: %2$s"</string>
     <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s: %3$s"</string>
@@ -19,6 +509,274 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Freigeben für"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Freigeben für %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Minimieren"</string>
+    <string name="about_available">verfügbar</string>
+    <string name="about_copy_to_clipboard">In die Zwischenablage kopieren</string>
+    <string name="about_not_available">nicht verfügbar</string>
+    <string name="action_popup">Popup-Einstellungen</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="angle">Winkel</string>
+    <string name="answer_no">Nein</string>
+    <string name="answer_yes">Ja</string>
+    <string name="app_name">Open Camera</string>
+    <string name="audio_disabled">Audio deaktiviert</string>
+    <string name="auto_stabilise_not_supported">Die automatische Bildlagekorrektur wird auf diesem Gerät\nnicht unterstützt</string>
+    <string name="back_camera">Hauptkamera</string>
+    <string name="cancelled_burst_mode">Serienbilder abgebrochen</string>
+    <string name="cancelled_timer">Timer abgebrochen</string>
+    <string name="cant_access_folder">Kein Zugriff auf diesem Ordner</string>
+    <string name="cant_write_folder">In diesem Ordner kann nicht gespeichert werden</string>
+    <string name="changed_save_location">Speicherort geändert nach:</string>
+    <string name="choose_another_folder">Bitte wählen Sie einen anderen Ordner</string>
+    <string name="choose_save_location">Speicherort auswählen:</string>
+    <string name="clear_folder_history">Ordnerhistorie löschen</string>
+    <string name="clear_folder_history_question">Ordnerhistorie löschen?</string>
+    <string name="color_effect">Farbeffekt</string>
+    <string name="direction">Richtung</string>
+    <string name="duration_10m">10 Minuten</string>
+    <string name="duration_10s">10 Sekunden</string>
+    <string name="duration_11m">11 Minuten</string>
+    <string name="duration_12m">12 Minuten</string>
+    <string name="duration_15m">15 Minuten</string>
+    <string name="duration_15s">15 Sekunden</string>
+    <string name="duration_1h">1 Stunde</string>
+    <string name="duration_1m">1 Minute</string>
+    <string name="duration_20m">20 Minuten</string>
+    <string name="duration_25m">25 Minuten</string>
+    <string name="duration_2m">2 Minuten</string>
+    <string name="duration_30m">30 Minuten</string>
+    <string name="duration_30s">30 Sekunden</string>
+    <string name="duration_3m">3 Minuten</string>
+    <string name="duration_3s">3 Sekunden</string>
+    <string name="duration_45m">45 Minuten</string>
+    <string name="duration_4m">4 Minuten</string>
+    <string name="duration_5m">5 Minuten</string>
+    <string name="duration_5s">5 Sekunden</string>
+    <string name="duration_6m">6 Minuten</string>
+    <string name="duration_7m">7 Minuten</string>
+    <string name="duration_8m">8 Minuten</string>
+    <string name="duration_9m">9 Minuten</string>
+    <string name="duration_unlimited">Unbegrenzt</string>
+    <string name="enter_new_folder">Neuen Ordnername eingeben</string>
+    <string name="exposure">Belichtung</string>
+    <string name="exposure_compensation">Belichtungskorrektur</string>
+    <string name="exposure_lock">Belichtungssperre</string>
+    <string name="exposure_locked">Belichtung gesperrt</string>
+    <string name="exposure_unlocked">Belichtung entsperrt</string>
+    <string name="failed_create_folder">Fehler beim Erstellen des Ordners</string>
+    <string name="failed_to_auto_stabilise">Fehler bei der Bildlagekorrektur</string>
+    <string name="failed_to_open_camera_1">FEHLER BEIM ÖFFNEN DER KAMERA.</string>
+    <string name="failed_to_open_camera_2">KAMERA VIELLEICHT IN BENUTZUNG</string>
+    <string name="failed_to_open_camera_3">VON EINER ANDEREN ANWENDUNG?</string>
+    <string name="failed_to_reconnect_camera">Verbindung mit der Kamera fehlgeschlagen</string>
+    <string name="failed_to_record_video">Fehler bei der Videoaufnahme</string>
+    <string name="failed_to_save_photo">Fehler beim Speichern des Fotos</string>
+    <string name="failed_to_save_video">Fehler beim Speichern des Videos</string>
+    <string name="failed_to_stamp">Fehler beim Stempeln des Fotos</string>
+    <string name="failed_to_start_camera_preview">Fehler beim Starten der Kameravorschau</string>
+    <string name="failed_to_take_picture">Fehler bei der Fotoaufnahme</string>
+    <string name="flash_mode">Blitzmodus</string>
+    <string name="focus_distance">Fokus-Entfernung</string>
+    <string name="focus_mode">Fokus-Modus</string>
+    <string name="folder_exists">Ordner existiert bereits</string>
+    <string name="fps">FPS</string>
+    <string name="free_memory">Frei</string>
+    <string name="front_camera">Frontkamera</string>
+    <string name="gallery">Galerie</string>
+    <string name="grid">Gitter</string>
+    <string name="infinite">Unendlich</string>
+    <string name="intro_ok">OK (Diese Nachricht wird nicht wieder angezeigt.)</string>
+    <string name="intro_text">Zum Fokussieren das Display berühren und den blauen Button drücken um Fotos zu machen. Mehr Hilfe erhalten Sie über Einstellungen->Online-Hilfe. Open Camera ist vollkommen frei. Wenn Sie diese App mögen, wäre es schön, wenn Sie meine Spenden-App kaufen :) (Link hierzu in den Einstellungen oder der Online-Hilfe)\n\nDatenschutz: Der Standortzugriff wird für das Geotagging gebraucht, was jedoch standardmäßig deaktiviert ist. Wenn aktiviert, wird Ihr Standort lediglich in den Aufnahmen gespeichert.</string>
+    <string name="iso">ISO</string>
+    <string name="location_not_available">GPS-Standort nicht verfügbar</string>
+    <string name="max_duration">Maximaldauer</string>
+    <string name="metres_abbreviation">m</string>
+    <string name="new_folder">Neuer Ordner</string>
+    <string name="no_gallery_app">Keine Galerie-App verfügbar</string>
+    <string name="not_supported">wird von Ihrem Gerät nicht unterstützt</string>
+    <string name="off">Aus</string>
+    <string name="on">Ein</string>
+    <string name="parent_folder">Übergeordnetes Verzeichnis</string>
+    <string name="photo">Foto</string>
+    <string name="photo_deleted">Foto gelöscht</string>
+    <string name="preference_about">Über</string>
+    <string name="preference_about_summary">Anwendungs- und Debug-Informationen</string>
+    <string name="preference_angle_highlight_color">Farbe zum Hervorheben des Lagewinkels</string>
+    <string name="preference_angle_highlight_color_summary">Farbe zum Hervorheben des Lagewinkels, wenn die Kamera nahezu waagerecht gehalten wird</string>
+    <string name="preference_auto_stabilise">Bildlagekorrektur</string>
+    <string name="preference_auto_stabilise_summary">Die Aufnahme wird automatisch waagerecht ausgerichtet (nur bei Fotos, Aufnahme dauert länger und kann bei kleinem Gerätespeicher fehlschlagen)</string>
+    <string name="preference_burst_interval">Serienbild-Intervall</string>
+    <string name="preference_burst_interval_summary">Verzögerung zwischen den Fotoaufnahmen</string>
+    <string name="preference_burst_mode">Serienbild</string>
+    <string name="preference_burst_mode_summary">Mehrere Fotos in Folge nacheinander aufnehmen</string>
+    <string name="preference_category_camera_controls">Kamera-Einstellungen</string>
+    <string name="preference_category_camera_effects">Kameraeffekte</string>
+    <string name="preference_category_camera_quality">Foto- und Video-Einstellungen</string>
+    <string name="preference_category_online">Verschiedenes</string>
+    <string name="preference_color_effect">Farbeffekt</string>
+    <string name="preference_color_effect_summary">Wendet den gewählten Farbeffekt auf das Foto an</string>
+    <string name="preference_crop_guide">Beschnitt-Hilfslinien</string>
+    <string name="preference_crop_guide_summary">Anzeige einer rechteckigen Hilfslinie entsprechend dem gewählten Seitenverhältnis (nützlich, wenn ein Beschnitt geplant ist). Nur in der WYSIWYG-Vorschau oder bei Videoaufnahme möglich.</string>
+    <string name="preference_donate">Spende</string>
+    <string name="preference_donate_summary">Wenn Ihnen diese App gefällt, würde ich mich über eine Spende freuen, indem Sie meine Spenden-App kaufen. Dazu brauchen Sie nur diese Option anzuklicken. Danke!</string>
+    <string name="preference_exposure">Belichtungskorrektur</string>
+    <string name="preference_exposure_summary">Für die Standardbelichtung auf 0 setzen</string>
+    <string name="preference_face_detection">Gesichtserkennung</string>
+    <string name="preference_face_detection_summary">Stellt die Schärfe auf die Gesichter ein</string>
+    <string name="preference_force_video_4k">Erzwinge UHD/4K (experimentell)</string>
+    <string name="preference_force_video_4k_summary">Aktiviert die Auflösung von 3840x2160 für die Videoaufnahme der Hauptkamera. Funktioniert jedoch nur, wenn es vom Gerät unterstützt wird</string>
+    <string name="preference_free_memory">Freien Speicherplatz anzeigen</string>
+    <string name="preference_free_memory_summary">Zeigt den verbleibenden Speicherplatz auf dem Bildschirm an</string>
+    <string name="preference_gps_direction">Himmelsrichtung</string>
+    <string name="preference_gps_direction_summary">Wenn aktiviert, wird die Kompassrichtung in den Fotoaufnahmen gespeichert.</string>
+    <string name="preference_grid">Gitter-Hilfslinien</string>
+    <string name="preference_grid_summary">Gitter/Spirale im Vorschaubild anzeigen</string>
+    <string name="preference_immersive_mode">Automatisches Ausblenden</string>
+    <string name="preference_immersive_mode_summary">Automatisches Ausblenden von Tasten und Anzeigen in der Vorschau</string>
+    <string name="preference_iso">ISO-Wert</string>
+    <string name="preference_iso_summary">Einstellung der Lichtempfindlichkeit. Je höher der Wert umso lichtempfindlicher (funktioniert nicht bei allen Geräten)</string>
+    <string name="preference_keep_display_on">Bildschirm immer an</string>
+    <string name="preference_keep_display_on_summary">Wenn aktiviert, wird der Bildschirm nie ausgeschaltet solange die Oberfläche aktiv ist.</string>
+    <string name="preference_location">Geotagging</string>
+    <string name="preference_location_summary">Wenn aktiviert, werden die GPS-Standortdaten in den Aufnahmen gespeichert.</string>
+    <string name="preference_lock_orientation">Foto-/Video-Orientierung sperren</string>
+    <string name="preference_lock_orientation_summary">Wenn aktiviert, wird die Lage des Gerätes ignoriert und die Orientierung der Aufnahme auf diesen Wert fest eingestellt.</string>
+    <string name="preference_lock_video">Bildschirm bei Videoaufnahme sperren</string>
+    <string name="preference_lock_video_summary">Wenn aktiviert, wird bei Videoaufnahmen die Oberfläche gesperrt, um versehentliches Stoppen zu verhindern. Zum Entsperren einfach wischen.</string>
+    <string name="preference_max_brightness">Maximale Helligkeit erzwingen</string>
+    <string name="preference_max_brightness_summary">Wenn aktiviert, wird der Bildschirm auf die höchste Helligkeit eingestellt.</string>
+    <string name="preference_online_help">Online-Hilfe</string>
+    <string name="preference_pause_preview">Pause nach der Fotoaufnahme</string>
+    <string name="preference_pause_preview_summary">Nach der Aufnahme pausieren mit der Möglichkeit, das Foto zu teilen oder zu löschen</string>
+    <string name="preference_preview_size">Vorschaugröße</string>
+    <string name="preference_preview_size_summary">Größe der Vorschauanzeige festlegen</string>
+    <string name="preference_quality">Bildqualität</string>
+    <string name="preference_quality_summary">Die Qualität beim Speichern der Fotos einstellen (Empfehlung: 90%%)</string>
+    <string name="preference_record_audio">Ton aufzeichnen</string>
+    <string name="preference_record_audio_channels">Audio-Kanäle</string>
+    <string name="preference_record_audio_channels_summary">Mono- oder Stereo-Aufnahme (Stereo wird nur von einigen Geräten unterstützt)</string>
+    <string name="preference_record_audio_src">Audio-Quelle</string>
+    <string name="preference_record_audio_src_summary">Einstellung der Mikrofonquelle für die Tonaufnahme</string>
+    <string name="preference_record_audio_summary">Wenn aktiviert, wird das Video mit Ton aufgenommen.</string>
+    <string name="preference_require_location">Standortdaten erforderlich</string>
+    <string name="preference_require_location_summary">Wenn aktiviert, werden die Aufnahmen nur bei Verfügbarkeit der Standortdaten ausgelöst.</string>
+    <string name="preference_reset">Einstellungen zurücksetzen</string>
+    <string name="preference_reset_question">Sind Sie sich sicher, alle Einstellungen von Open Camera auf die Standardwerte zurückzusetzen?</string>
+    <string name="preference_reset_summary">Standard-Einstellungen von Open Camera wiederherstellen</string>
+    <string name="preference_resolution">Kamera-Auflösung</string>
+    <string name="preference_resolution_summary">Einstellung der Auflösung der Fotoaufnahmen</string>
+    <string name="preference_rotate_preview">Vorschau drehen</string>
+    <string name="preference_rotate_preview_summary">Vorschaubild drehen (hat keinen Einfluss auf die Aufnahme)</string>
+    <string name="preference_save_location">Speicherort</string>
+    <string name="preference_save_location_summary">Ordner, wo die Fotos/Videos gespeichert werden</string>
+    <string name="preference_save_photo_prefix">Foto-Präfix</string>
+    <string name="preference_save_photo_prefix_summary">Den Präfix für die Dateinamen der Fotos einstellen</string>
+    <string name="preference_save_video_prefix">Video-Präfix</string>
+    <string name="preference_save_video_prefix_summary">Den Präfix für die Dateinamen der Videos einstellen</string>
+    <string name="preference_scene_mode">Szenenmodus</string>
+    <string name="preference_scene_mode_summary">Optimiert das Foto für verschiedene Szenen</string>
+    <string name="preference_screen_camera_controls_more">Mehr Kamera-Einstellungen…</string>
+    <string name="preference_screen_gui">Benutzeroberfläche…</string>
+    <string name="preference_screen_location_settings">Standort-Einstellungen…</string>
+    <string name="preference_screen_photo_settings">Foto-Einstellungen…</string>
+    <string name="preference_screen_video_settings">Video-Einstellungen…</string>
+    <string name="preference_show_angle">Lagewinkel anzeigen</string>
+    <string name="preference_show_angle_line">Horizontale Linie anzeigen</string>
+    <string name="preference_show_angle_line_summary">Zeigt eine waagerechte Linie auf dem Bildschirm an</string>
+    <string name="preference_show_angle_summary">Zeigt den aktuellen Lagewinkel des Gerätes an</string>
+    <string name="preference_show_battery">Batterieanzeige</string>
+    <string name="preference_show_battery_summary">Zeigt den aktuellen Ladezustand des Akkus auf dem Bildschirm an</string>
+    <string name="preference_show_geo_direction">Kompassrichtung anzeigen</string>
+    <string name="preference_show_geo_direction_summary">Zeigt die Kompassrichtung des Gerätes auf dem Bildschirm an</string>
+    <string name="preference_show_iso">ISO-Wert anzeigen</string>
+    <string name="preference_show_iso_summary">Zeigt den aktuellen ISO-Wert auf dem Bildschirm an (benötigt Camera2 API)</string>
+    <string name="preference_show_time">Zeit anzeigen</string>
+    <string name="preference_show_time_summary">Zeigt die aktuelle Zeit auf dem Bildschirm an</string>
+    <string name="preference_show_toasts">Toast-Benachrichtigungen</string>
+    <string name="preference_show_toasts_summary">Anzeige von Popup-Meldungen aktivieren/deaktivieren</string>
+    <string name="preference_show_when_locked">Kamera trotz Sperre anzeigen</string>
+    <string name="preference_show_when_locked_summary">Wenn aktiviert, wird Open Camera über dem Sperrbildschirm stehen (das Entsperren ist jedoch für den Zugriff auf Einstellungen, Galerie usw. nötig)</string>
+    <string name="preference_show_zoom">Zoomfaktor anzeigen</string>
+    <string name="preference_show_zoom_controls">Zoom-Tasten anzeigen</string>
+    <string name="preference_show_zoom_controls_summary">Zeigt +/- Tasten zur Zoomsteuerung an</string>
+    <string name="preference_show_zoom_slider_controls">Zoom-Schieberegler anzeigen</string>
+    <string name="preference_show_zoom_slider_controls_summary">Zeigt einen Schieberegler zur Zoomsteuerung an</string>
+    <string name="preference_show_zoom_summary">Zeigt beim Zoomen den aktuellen Zoomfaktor auf dem Bildschirm an</string>
+    <string name="preference_shutter_sound">Auslöseton</string>
+    <string name="preference_shutter_sound_summary">Abspielen eines Tones bei der Aufnahme (benötigt Android 4.2 oder höher zum Deaktivieren)</string>
+    <string name="preference_stamp">Fotos stempeln</string>
+    <string name="preference_stamp_dateformat">Datumsstempel</string>
+    <string name="preference_stamp_dateformat_summary">Aktivierung und Formateinstellung des Datumsstempels</string>
+    <string name="preference_stamp_font_color">Stempel-Schriftfarbe</string>
+    <string name="preference_stamp_font_color_summary">Einstellung der Stempel-Schriftfarbe</string>
+    <string name="preference_stamp_fontsize">Stempel-Schriftgröße</string>
+    <string name="preference_stamp_fontsize_summary">Einstellung der Stempel-Schriftgröße</string>
+    <string name="preference_stamp_gpsformat">GPS-Stempel</string>
+    <string name="preference_stamp_gpsformat_summary">Aktivierung und Formateinstellung des GPS-Stempels</string>
+    <string name="preference_stamp_style">Stempelstil</string>
+    <string name="preference_stamp_style_summary">Einstellung der Stempelart</string>
+    <string name="preference_stamp_summary">Wenn aktiviert, werden die Fotos mit Datum, Zeit, eigenem Text und/oder GPS-Daten (sofern aktiviert) gestempelt.</string>
+    <string name="preference_stamp_timeformat">Zeitstempel</string>
+    <string name="preference_stamp_timeformat_summary">Aktivierung und Formateinstellung des Zeitstempels</string>
+    <string name="preference_textstamp">Textstempel</string>
+    <string name="preference_textstamp_summary">Definition eines eigenen Textstempels</string>
+    <string name="preference_thumbnail_animation">Vorschau-Animation</string>
+    <string name="preference_thumbnail_animation_summary">Zeigt eine Vorschaubildanimation bei der Fotoaufnahme</string>
+    <string name="preference_timer">Timer</string>
+    <string name="preference_timer_beep">Timer-Signalton</string>
+    <string name="preference_timer_beep_summary">Beim Herunterzählen der Auslöseverzögerung einen Signalton ausgeben</string>
+    <string name="preference_timer_speak">Timer-Sprachausgabe</string>
+    <string name="preference_timer_speak_summary">Sprachausgabe beim Herunterzählen der Auslöseverzögerung (ab 60 s)</string>
+    <string name="preference_timer_summary">Auslöseverzögerung einstellen</string>
+    <string name="preference_touch_capture">Aufnahme bei Berührung</string>
+    <string name="preference_touch_capture_summary">Fotoaufnahme durch Berührung oder Doppelklick der Vorschau starten</string>
+    <string name="preference_ui_placement">Ausrichtung der Oberfläche</string>
+    <string name="preference_ui_placement_summary">Einstellung der Oberfläche für Links- und Rechtshänder</string>
+    <string name="preference_use_camera2">Camera2-API verwenden</string>
+    <string name="preference_use_camera2_summary">Aktiviert die Android-5-Camera2-API mit Zusatzfunktionen (experimentell, Neustart erforderlich)</string>
+    <string name="preference_using_saf">Benutze Storage Access Framework</string>
+    <string name="preference_using_saf_summary">Für das Speichern der Fotos/Videos Androids Storage Access Framework verwenden</string>
+    <string name="preference_video_bitrate">Video-Bitrate (durchschnittlich)</string>
+    <string name="preference_video_bitrate_summary">Einstellung der durchschnittlichen Bitrate der Videoaufnahme (je höher umso besser die Qualität und höher die Dateigröße). Nicht alle Geräte unterstützen alle Bitraten</string>
+    <string name="preference_video_flash">Blitzlicht während der Videoaufnahme</string>
+    <string name="preference_video_flash_summary">Wenn aktiviert, blinkt der Blitz während der Videoaufnahme.</string>
+    <string name="preference_video_fps">Bildwiederholfrequenz</string>
+    <string name="preference_video_fps_summary">Einstellung der Bildwiederholrate (FPS) der Videoaufnahme. Dieser Wert kann nicht immer garantiert werden. Nicht alle Geräte unterstützen alle Raten</string>
+    <string name="preference_video_max_duration">Maximaldauer</string>
+    <string name="preference_video_max_duration_summary">Die Videoaufnahme wird nach dieser Zeit abgebrochen.</string>
+    <string name="preference_video_restart">Neustart der Aufnahme nach Maximaldauer</string>
+    <string name="preference_video_restart_summary">Nach dem Erreichen der Maximaldauer wird die Aufnahme so oft wie angegeben neu gestartet</string>
+    <string name="preference_video_stabilization">Video-Stabilisierung</string>
+    <string name="preference_video_stabilization_summary">Die Video-Stabilisierung reduziert das Bildwackeln in der Vorschau und der Aufnahme</string>
+    <string name="preference_volume_keys">Lautstärketasten</string>
+    <string name="preference_volume_keys_summary">Das Verhalten beim Betätigen der Lautstärketasten einstellen</string>
+    <string name="preference_white_balance">Weißabgleich</string>
+    <string name="preference_white_balance_summary">Einstellung zum Weißabgleich vornehmen</string>
+    <string name="repeats_to_go">Wiederholungen ausbleibend</string>
+    <string name="saf_cancelled">Storage Access Framework abgebrochen</string>
+    <string name="saf_select_save_location">Speicherort auswählen</string>
+    <string name="scene_mode">Szenenmodus</string>
+    <string name="screen_is_locked">Bildschirm ist gesperrt\nWischen, um die Sperre aufzuheben</string>
+    <string name="screen_lock_message_1">[GESPERRT:</string>
+    <string name="screen_lock_message_2">Zum Entsperren wischen]</string>
     <string msgid="146198913615257606" name="search_menu_title">"Suchen"</string>
+    <string name="share">Foto teilen</string>
+    <string name="sorry">Entschuldigung</string>
+    <string name="started_recording_video">Videoaufnahme gestartet</string>
+    <string name="started_timer">Timer gestartet</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="stopped_recording_video">Videoaufnahme angehalten</string>
+    <string name="take_photo">Foto aufnehmen</string>
+    <string name="taking_photo">Foto wird aufgenommen</string>
+    <string name="trash">Letztes Foto löschen</string>
+    <string name="unlocked">Entriegelt</string>
+    <string name="video">Video</string>
+    <string name="video_error_server_died">Server abgestürzt, Video angehalten</string>
+    <string name="video_error_unknown">Unbekannter Fehler, Videoaufnahme angehalten</string>
+    <string name="video_max_duration">Video hat die Maximaldauer erreicht</string>
+    <string name="video_max_filesize">Video hat die Maximalgröße erreicht</string>
+    <string name="video_may_be_corrupted">Fehler, die Video-Datei könnte beschädigt sein</string>
+    <string name="video_quality">Video-Auflösung</string>
+    <string name="video_quality_summary">Einstellung der Auflösung der Videoaufnahmen</string>
+    <string name="white_balance">Weißabgleich</string>
+    <string name="zoom">Zoom</string>
 </resources>

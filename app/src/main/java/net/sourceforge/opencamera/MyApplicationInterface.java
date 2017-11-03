@@ -232,6 +232,7 @@ public class MyApplicationInterface implements ApplicationInterface {
 				{
 					switchPhoto();
 //					main_activity.getPreview().onPause();
+
 				}
 				else if (position == 3 )  // beauty
 				{
@@ -251,7 +252,7 @@ public class MyApplicationInterface implements ApplicationInterface {
 			public void onPageScrollStateChanged(int state)
 			{
 				Log.d(" Mainact ", " position11 3 " + state);
-//				main_activity.getPreview().closeActivity();
+//				main_activity.getPreview().openCamera();
 //				main_activity.getPreview().onResume();
 			}
 		});

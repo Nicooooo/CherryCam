@@ -20,12 +20,12 @@
         "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-hdpi\\slowmo.png"
     },
     {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\switch_camera.png",
-        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-hdpi\\switch_camera.png"
-    },
-    {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\back_pressed.png",
         "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-hdpi\\back_pressed.png"
+    },
+    {
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\switch_camera.png",
+        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-hdpi\\switch_camera.png"
     },
     {
         "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\sec_9.png",
@@ -44,12 +44,12 @@
         "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-hdpi\\toggleon.png"
     },
     {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_info_outline_white_48dp.png",
-        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-hdpi\\ic_info_outline_white_48dp.png"
-    },
-    {
         "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\shutter.png",
         "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-hdpi\\shutter.png"
+    },
+    {
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_info_outline_white_48dp.png",
+        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-hdpi\\ic_info_outline_white_48dp.png"
     },
     {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\back.png",
@@ -80,20 +80,20 @@
         "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-hdpi\\shutter_pressed.png"
     },
     {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\watermark.png",
-        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-hdpi\\watermark.png"
-    },
-    {
         "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\watermark_pressed.png",
         "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-hdpi\\watermark_pressed.png"
     },
     {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_more_horiz_white_48dp.png",
-        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-hdpi\\ic_more_horiz_white_48dp.png"
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\watermark.png",
+        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-hdpi\\watermark.png"
     },
     {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_touch_app_white_48dp.png",
         "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-hdpi\\ic_touch_app_white_48dp.png"
+    },
+    {
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_more_horiz_white_48dp.png",
+        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-hdpi\\ic_more_horiz_white_48dp.png"
     },
     {
         "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\flash_auto.png",

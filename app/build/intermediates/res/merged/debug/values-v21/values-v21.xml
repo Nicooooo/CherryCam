@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="AppBaseTheme" parent="android:Theme.Material.NoActionBar.Fullscreen">
+        <!-- API 21 theme customizations can go here. -->
+        <item name="android:imageButtonStyle">@style/image_button</item>
+    </style>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance.Material"/>
     <style name="Base.TextAppearance.AppCompat.Body1" parent="android:TextAppearance.Material.Body1"/>
     <style name="Base.TextAppearance.AppCompat.Body2" parent="android:TextAppearance.Material.Body2"/>
@@ -253,5 +257,8 @@
     <style name="Platform.ThemeOverlay.AppCompat.Light"/>
     <style name="Widget.Design.AppBarLayout" parent="Base.Widget.Design.AppBarLayout">
         <item name="android:stateListAnimator">@anim/design_appbar_state_list_animator</item>
+    </style>
+    <style name="image_button" parent="@android:style/Widget.Material.ImageButton">
+        <item name="android:backgroundTint">#d05a595b</item> <!-- standard material design backgroundTint is #ff5a595b, but we want transparent image buttons -->
     </style>
 </resources>

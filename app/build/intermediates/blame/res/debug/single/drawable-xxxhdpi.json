@@ -20,20 +20,20 @@
         "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_more_horiz_white_48dp.png"
     },
     {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\mountain.png",
-        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\mountain.png"
-    },
-    {
         "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\exposure_pressed.png",
         "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\exposure_pressed.png"
     },
     {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\focus_pressed.png",
-        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\focus_pressed.png"
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\mountain.png",
+        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\mountain.png"
     },
     {
         "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\square.png",
         "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-xxxhdpi\\square.png"
+    },
+    {
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\focus_pressed.png",
+        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-xxxhdpi\\focus_pressed.png"
     },
     {
         "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\whitebalance.png",

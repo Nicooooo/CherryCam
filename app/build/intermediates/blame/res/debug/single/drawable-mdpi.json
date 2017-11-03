@@ -52,12 +52,12 @@
         "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-mdpi\\saturation_pressed.png"
     },
     {
-        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\sec_off.png",
-        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-mdpi\\sec_off.png"
-    },
-    {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\square.png",
         "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-mdpi\\square.png"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\sec_off.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-mdpi\\sec_off.png"
     },
     {
         "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_face_white_48dp.png",
@@ -220,12 +220,12 @@
         "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-mdpi\\focus_mode_locked.png"
     },
     {
-        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\sec_3.png",
-        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-mdpi\\sec_3.png"
-    },
-    {
         "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_timer.png",
         "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-mdpi\\ic_timer.png"
+    },
+    {
+        "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\sec_3.png",
+        "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-mdpi\\sec_3.png"
     },
     {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\saturation.png",
@@ -236,12 +236,12 @@
         "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-mdpi\\popup_flash_red_eye.png"
     },
     {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\toggleoff.png",
-        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-mdpi\\toggleoff.png"
-    },
-    {
         "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\shutter.png",
         "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-mdpi\\shutter.png"
+    },
+    {
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\toggleoff.png",
+        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-mdpi\\toggleoff.png"
     },
     {
         "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\audioimage.png",
@@ -256,12 +256,12 @@
         "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-mdpi\\iso.png"
     },
     {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\flash_off.png",
-        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-mdpi\\flash_off.png"
-    },
-    {
         "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\popup_flash_auto.png",
         "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-mdpi\\popup_flash_auto.png"
+    },
+    {
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\flash_off.png",
+        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-mdpi\\flash_off.png"
     },
     {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\exposure.png",
@@ -292,12 +292,12 @@
         "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-mdpi\\ic_info_outline_white_48dp.png"
     },
     {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\incandescence.png",
-        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-mdpi\\incandescence.png"
-    },
-    {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\back.png",
         "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-mdpi\\back.png"
+    },
+    {
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\incandescence.png",
+        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-mdpi\\incandescence.png"
     },
     {
         "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\sec_9.png",
@@ -312,12 +312,12 @@
         "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-mdpi\\focus_mode_fixed.png"
     },
     {
-        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_pause_circle_outline_white_48dp.png",
-        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-mdpi\\ic_pause_circle_outline_white_48dp.png"
-    },
-    {
         "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\gallery.png",
         "source": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\drawable-mdpi\\gallery.png"
+    },
+    {
+        "merged": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_pause_circle_outline_white_48dp.png",
+        "source": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\drawable-mdpi\\ic_pause_circle_outline_white_48dp.png"
     },
     {
         "merged": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\focus_mode_continuous_video.png",

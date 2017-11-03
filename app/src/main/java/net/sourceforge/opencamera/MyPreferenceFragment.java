@@ -48,7 +48,7 @@ public class MyPreferenceFragment extends PreferenceFragment implements OnShared
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
         Log.d(TAG, "onCreate MyPreferenceFragment fragment");
-		if( MyDebug.LOG )
+//		if( MyDebug.LOG )
 
 		super.onCreate(savedInstanceState);
 		addPreferencesFromResource(R.xml.preferences);

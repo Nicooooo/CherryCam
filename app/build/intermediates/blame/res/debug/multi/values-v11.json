@@ -420,9 +420,30 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endLine": 7,
+                    "endLine": 4,
                     "endColumn": 12,
-                    "endOffset": 469
+                    "endOffset": 204
+                },
+                "from": {
+                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 177,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 326
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 209,
+                    "endLine": 10,
+                    "endColumn": 12,
+                    "endOffset": 623
                 },
                 "from": {
                     "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v11\\values-v11.xml",
@@ -438,12 +459,12 @@
             },
             {
                 "to": {
-                    "startLine": 8,
+                    "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 474,
-                    "endLine": 13,
+                    "startOffset": 628,
+                    "endLine": 16,
                     "endColumn": 12,
-                    "endOffset": 894
+                    "endOffset": 1048
                 },
                 "from": {
                     "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v11\\values-v11.xml",
@@ -459,12 +480,12 @@
             },
             {
                 "to": {
-                    "startLine": 14,
+                    "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 899,
-                    "endLine": 19,
+                    "startOffset": 1053,
+                    "endLine": 22,
                     "endColumn": 12,
-                    "endOffset": 1322
+                    "endOffset": 1476
                 },
                 "from": {
                     "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v11\\values-v11.xml",
@@ -480,12 +501,12 @@
             },
             {
                 "to": {
-                    "startLine": 20,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 1327,
-                    "endLine": 25,
+                    "startOffset": 1481,
+                    "endLine": 28,
                     "endColumn": 12,
-                    "endOffset": 1748
+                    "endOffset": 1902
                 },
                 "from": {
                     "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v11\\values-v11.xml",
@@ -501,12 +522,12 @@
             },
             {
                 "to": {
-                    "startLine": 26,
+                    "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 1753,
-                    "endLine": 31,
+                    "startOffset": 1907,
+                    "endLine": 34,
                     "endColumn": 12,
-                    "endOffset": 2175
+                    "endOffset": 2329
                 },
                 "from": {
                     "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v11\\values-v11.xml",
@@ -522,12 +543,12 @@
             },
             {
                 "to": {
-                    "startLine": 32,
+                    "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 2180,
-                    "endLine": 37,
+                    "startOffset": 2334,
+                    "endLine": 40,
                     "endColumn": 12,
-                    "endOffset": 2600
+                    "endOffset": 2754
                 },
                 "from": {
                     "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v11\\values-v11.xml",
@@ -543,11 +564,11 @@
             },
             {
                 "to": {
-                    "startLine": 38,
+                    "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 2605,
+                    "startOffset": 2759,
                     "endColumn": 88,
-                    "endOffset": 2689
+                    "endOffset": 2843
                 },
                 "from": {
                     "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v11\\values-v11.xml",
@@ -562,11 +583,11 @@
             },
             {
                 "to": {
-                    "startLine": 39,
+                    "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 2694,
+                    "startOffset": 2848,
                     "endColumn": 100,
-                    "endOffset": 2790
+                    "endOffset": 2944
                 },
                 "from": {
                     "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v11\\values-v11.xml",
@@ -581,11 +602,11 @@
             },
             {
                 "to": {
-                    "startLine": 40,
+                    "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 2795,
+                    "startOffset": 2949,
                     "endColumn": 102,
-                    "endOffset": 2893
+                    "endOffset": 3047
                 },
                 "from": {
                     "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v11\\values-v11.xml",
@@ -600,12 +621,12 @@
             },
             {
                 "to": {
-                    "startLine": 41,
+                    "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 2898,
-                    "endLine": 45,
+                    "startOffset": 3052,
+                    "endLine": 48,
                     "endColumn": 12,
-                    "endOffset": 3301
+                    "endOffset": 3455
                 },
                 "from": {
                     "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v11\\values-v11.xml",
@@ -621,12 +642,12 @@
             },
             {
                 "to": {
-                    "startLine": 46,
+                    "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 3306,
-                    "endLine": 50,
+                    "startOffset": 3460,
+                    "endLine": 53,
                     "endColumn": 12,
-                    "endOffset": 3721
+                    "endOffset": 3875
                 },
                 "from": {
                     "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v11\\values-v11.xml",
@@ -642,12 +663,12 @@
             },
             {
                 "to": {
-                    "startLine": 51,
+                    "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 3726,
-                    "endLine": 55,
+                    "startOffset": 3880,
+                    "endLine": 58,
                     "endColumn": 12,
-                    "endOffset": 4143
+                    "endOffset": 4297
                 },
                 "from": {
                     "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v11\\values-v11.xml",
@@ -663,12 +684,12 @@
             },
             {
                 "to": {
-                    "startLine": 56,
+                    "startLine": 59,
                     "startColumn": 4,
-                    "startOffset": 4148,
-                    "endLine": 57,
+                    "startOffset": 4302,
+                    "endLine": 60,
                     "endColumn": 12,
-                    "endOffset": 4250
+                    "endOffset": 4404
                 },
                 "from": {
                     "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v11\\values-v11.xml",
@@ -684,12 +705,12 @@
             },
             {
                 "to": {
-                    "startLine": 58,
+                    "startLine": 61,
                     "startColumn": 4,
-                    "startOffset": 4255,
-                    "endLine": 59,
+                    "startOffset": 4409,
+                    "endLine": 62,
                     "endColumn": 12,
-                    "endOffset": 4379
+                    "endOffset": 4533
                 },
                 "from": {
                     "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v11\\values-v11.xml",
@@ -705,11 +726,11 @@
             },
             {
                 "to": {
-                    "startLine": 60,
+                    "startLine": 63,
                     "startColumn": 4,
-                    "startOffset": 4384,
+                    "startOffset": 4538,
                     "endColumn": 70,
-                    "endOffset": 4450
+                    "endOffset": 4604
                 },
                 "from": {
                     "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v11\\values-v11.xml",
@@ -724,11 +745,11 @@
             },
             {
                 "to": {
-                    "startLine": 61,
+                    "startLine": 64,
                     "startColumn": 4,
-                    "startOffset": 4455,
+                    "startOffset": 4609,
                     "endColumn": 82,
-                    "endOffset": 4533
+                    "endOffset": 4687
                 },
                 "from": {
                     "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v11\\values-v11.xml",
@@ -743,12 +764,12 @@
             },
             {
                 "to": {
-                    "startLine": 62,
+                    "startLine": 65,
                     "startColumn": 4,
-                    "startOffset": 4538,
-                    "endLine": 114,
+                    "startOffset": 4692,
+                    "endLine": 117,
                     "endColumn": 12,
-                    "endOffset": 8467
+                    "endOffset": 8621
                 },
                 "from": {
                     "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v11\\values-v11.xml",
@@ -764,12 +785,12 @@
             },
             {
                 "to": {
-                    "startLine": 115,
+                    "startLine": 118,
                     "startColumn": 4,
-                    "startOffset": 8472,
-                    "endLine": 168,
+                    "startOffset": 8626,
+                    "endLine": 171,
                     "endColumn": 12,
-                    "endOffset": 12541
+                    "endOffset": 12695
                 },
                 "from": {
                     "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v11\\values-v11.xml",
@@ -785,11 +806,11 @@
             },
             {
                 "to": {
-                    "startLine": 169,
+                    "startLine": 172,
                     "startColumn": 4,
-                    "startOffset": 12546,
+                    "startOffset": 12700,
                     "endColumn": 90,
-                    "endOffset": 12632
+                    "endOffset": 12786
                 },
                 "from": {
                     "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-v11\\values-v11.xml",
