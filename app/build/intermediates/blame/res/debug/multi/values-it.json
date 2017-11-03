@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-it\\values-it.xml",
+        "outputFile": "E:\\10-09-17\\Procamera\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-it\\values-it.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 340
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -33,7 +33,7 @@
                     "endOffset": 684
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -54,7 +54,7 @@
                     "endOffset": 990
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -75,7 +75,7 @@
                     "endOffset": 1434
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 40,
                         "startColumn": 4,
@@ -96,7 +96,7 @@
                     "endOffset": 1947
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -117,7 +117,7 @@
                     "endOffset": 2381
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 51,
                         "startColumn": 4,
@@ -138,7 +138,7 @@
                     "endOffset": 2873
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 118,
                         "startColumn": 4,
@@ -159,7 +159,7 @@
                     "endOffset": 3366
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 137,
                         "startColumn": 4,
@@ -180,7 +180,7 @@
                     "endOffset": 3619
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 100,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 3864
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 109,
                         "startColumn": 4,
@@ -222,7 +222,7 @@
                     "endOffset": 4290
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 226,
                         "startColumn": 4,
@@ -243,7 +243,7 @@
                     "endOffset": 4770
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 239,
                         "startColumn": 4,
@@ -264,7 +264,7 @@
                     "endOffset": 5206
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 198,
                         "startColumn": 4,
@@ -285,7 +285,7 @@
                     "endOffset": 5898
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 212,
                         "startColumn": 4,
@@ -306,7 +306,7 @@
                     "endOffset": 6093
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 62,
                         "startColumn": 4,
@@ -327,7 +327,7 @@
                     "endOffset": 6261
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 67,
                         "startColumn": 4,
@@ -348,7 +348,7 @@
                     "endOffset": 6458
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 156,
                         "startColumn": 4,
@@ -369,7 +369,7 @@
                     "endOffset": 6641
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 160,
                         "startColumn": 4,
@@ -390,7 +390,7 @@
                     "endOffset": 6892
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 352,
                         "startColumn": 4,
@@ -411,7 +411,7 @@
                     "endOffset": 7139
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 358,
                         "startColumn": 4,
@@ -432,7 +432,7 @@
                     "endOffset": 7298
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 182,
                         "startColumn": 4,
@@ -453,7 +453,7 @@
                     "endOffset": 7425
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 186,
                         "startColumn": 4,
@@ -474,7 +474,7 @@
                     "endOffset": 7789
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 72,
                         "startColumn": 4,
@@ -495,7 +495,7 @@
                     "endOffset": 8144
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 86,
                         "startColumn": 4,
@@ -516,7 +516,7 @@
                     "endOffset": 8321
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 190,
                         "startColumn": 4,
@@ -537,7 +537,7 @@
                     "endOffset": 8457
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 194,
                         "startColumn": 4,
@@ -558,7 +558,7 @@
                     "endOffset": 9208
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 252,
                         "startColumn": 4,
@@ -579,7 +579,7 @@
                     "endOffset": 9991
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 278,
                         "startColumn": 4,
@@ -600,7 +600,7 @@
                     "endOffset": 10293
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 304,
                         "startColumn": 4,
@@ -621,7 +621,7 @@
                     "endOffset": 10590
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 315,
                         "startColumn": 4,
@@ -642,7 +642,7 @@
                     "endOffset": 11064
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 326,
                         "startColumn": 4,
@@ -663,7 +663,7 @@
                     "endOffset": 11396
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 339,
                         "startColumn": 4,
@@ -684,7 +684,7 @@
                     "endOffset": 11801
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 164,
                         "startColumn": 4,
@@ -705,7 +705,7 @@
                     "endOffset": 12187
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\arrays.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\arrays.xml",
                     "position": {
                         "startLine": 173,
                         "startColumn": 4,
@@ -725,7 +725,7 @@
                     "endOffset": 12296
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-it\\values-it.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -744,7 +744,7 @@
                     "endOffset": 12404
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-it\\values-it.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -763,7 +763,7 @@
                     "endOffset": 12527
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-it\\values-it.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -782,7 +782,7 @@
                     "endOffset": 12627
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-it\\values-it.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -801,7 +801,7 @@
                     "endOffset": 12736
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-it\\values-it.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -820,7 +820,7 @@
                     "endOffset": 12820
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-it\\values-it.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -839,7 +839,7 @@
                     "endOffset": 12929
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-it\\values-it.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -858,7 +858,7 @@
                     "endOffset": 13054
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-it\\values-it.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -877,7 +877,7 @@
                     "endOffset": 13131
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-it\\values-it.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -896,7 +896,7 @@
                     "endOffset": 13207
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-it\\values-it.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -915,7 +915,7 @@
                     "endOffset": 13288
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-it\\values-it.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -934,7 +934,7 @@
                     "endOffset": 13394
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-it\\values-it.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -953,7 +953,7 @@
                     "endOffset": 13502
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-it\\values-it.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -972,7 +972,7 @@
                     "endOffset": 13600
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-it\\values-it.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -991,7 +991,7 @@
                     "endOffset": 13704
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-it\\values-it.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -1010,7 +1010,7 @@
                     "endOffset": 13809
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-it\\values-it.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -1029,7 +1029,7 @@
                     "endOffset": 13916
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-it\\values-it.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -1048,7 +1048,7 @@
                     "endOffset": 14038
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-it\\values-it.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -1067,7 +1067,7 @@
                     "endOffset": 14138
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-it\\values-it.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -1086,7 +1086,7 @@
                     "endOffset": 14194
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 171,
                         "startColumn": 4,
@@ -1105,7 +1105,7 @@
                     "endOffset": 14268
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 173,
                         "startColumn": 4,
@@ -1124,7 +1124,7 @@
                     "endOffset": 14332
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 172,
                         "startColumn": 4,
@@ -1143,7 +1143,7 @@
                     "endOffset": 14389
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1162,7 +1162,7 @@
                     "endOffset": 14430
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 54,
                         "startColumn": 4,
@@ -1181,7 +1181,7 @@
                     "endOffset": 14471
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1200,7 +1200,7 @@
                     "endOffset": 14513
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1219,7 +1219,7 @@
                     "endOffset": 14562
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1238,7 +1238,7 @@
                     "endOffset": 14624
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 50,
                         "startColumn": 4,
@@ -1257,7 +1257,7 @@
                     "endOffset": 14758
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 49,
                         "startColumn": 4,
@@ -1276,7 +1276,7 @@
                     "endOffset": 14820
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -1295,7 +1295,7 @@
                     "endOffset": 14881
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 4,
@@ -1314,7 +1314,7 @@
                     "endOffset": 14964
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 187,
                         "startColumn": 4,
@@ -1333,7 +1333,7 @@
                     "endOffset": 15047
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 186,
                         "startColumn": 4,
@@ -1352,7 +1352,7 @@
                     "endOffset": 15120
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -1371,7 +1371,7 @@
                     "endOffset": 15205
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -1390,7 +1390,7 @@
                     "endOffset": 15291
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -1409,7 +1409,7 @@
                     "endOffset": 15386
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -1428,7 +1428,7 @@
                     "endOffset": 15434
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 55,
                         "startColumn": 4,
@@ -1447,7 +1447,7 @@
                     "endOffset": 15485
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 207,
                         "startColumn": 4,
@@ -1466,7 +1466,7 @@
                     "endOffset": 15537
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 195,
                         "startColumn": 4,
@@ -1485,7 +1485,7 @@
                     "endOffset": 15588
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 208,
                         "startColumn": 4,
@@ -1504,7 +1504,7 @@
                     "endOffset": 15639
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 209,
                         "startColumn": 4,
@@ -1523,7 +1523,7 @@
                     "endOffset": 15690
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 210,
                         "startColumn": 4,
@@ -1542,7 +1542,7 @@
                     "endOffset": 15742
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 196,
                         "startColumn": 4,
@@ -1561,7 +1561,7 @@
                     "endOffset": 15788
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 215,
                         "startColumn": 4,
@@ -1580,7 +1580,7 @@
                     "endOffset": 15837
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 198,
                         "startColumn": 4,
@@ -1599,7 +1599,7 @@
                     "endOffset": 15888
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 211,
                         "startColumn": 4,
@@ -1618,7 +1618,7 @@
                     "endOffset": 15939
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 212,
                         "startColumn": 4,
@@ -1637,7 +1637,7 @@
                     "endOffset": 15988
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 199,
                         "startColumn": 4,
@@ -1656,7 +1656,7 @@
                     "endOffset": 16039
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 213,
                         "startColumn": 4,
@@ -1675,7 +1675,7 @@
                     "endOffset": 16091
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 197,
                         "startColumn": 4,
@@ -1694,7 +1694,7 @@
                     "endOffset": 16140
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 200,
                         "startColumn": 4,
@@ -1713,7 +1713,7 @@
                     "endOffset": 16190
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 193,
                         "startColumn": 4,
@@ -1732,7 +1732,7 @@
                     "endOffset": 16241
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 214,
                         "startColumn": 4,
@@ -1751,7 +1751,7 @@
                     "endOffset": 16290
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 201,
                         "startColumn": 4,
@@ -1770,7 +1770,7 @@
                     "endOffset": 16339
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 202,
                         "startColumn": 4,
@@ -1789,7 +1789,7 @@
                     "endOffset": 16389
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 194,
                         "startColumn": 4,
@@ -1808,7 +1808,7 @@
                     "endOffset": 16438
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 203,
                         "startColumn": 4,
@@ -1827,7 +1827,7 @@
                     "endOffset": 16487
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 204,
                         "startColumn": 4,
@@ -1846,7 +1846,7 @@
                     "endOffset": 16536
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 205,
                         "startColumn": 4,
@@ -1865,7 +1865,7 @@
                     "endOffset": 16585
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 206,
                         "startColumn": 4,
@@ -1884,7 +1884,7 @@
                     "endOffset": 16643
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 192,
                         "startColumn": 4,
@@ -1903,7 +1903,7 @@
                     "endOffset": 16727
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 188,
                         "startColumn": 4,
@@ -1922,7 +1922,7 @@
                     "endOffset": 16776
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 177,
                         "startColumn": 4,
@@ -1941,7 +1941,7 @@
                     "endOffset": 16858
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -1960,7 +1960,7 @@
                     "endOffset": 16919
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 178,
                         "startColumn": 4,
@@ -1979,7 +1979,7 @@
                     "endOffset": 16984
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -1998,7 +1998,7 @@
                     "endOffset": 17052
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 33,
                         "startColumn": 4,
@@ -2017,7 +2017,7 @@
                     "endOffset": 17134
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 189,
                         "startColumn": 4,
@@ -2036,7 +2036,7 @@
                     "endOffset": 17221
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 41,
                         "startColumn": 4,
@@ -2055,7 +2055,7 @@
                     "endOffset": 17308
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 56,
                         "startColumn": 4,
@@ -2074,7 +2074,7 @@
                     "endOffset": 17401
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 57,
                         "startColumn": 4,
@@ -2093,7 +2093,7 @@
                     "endOffset": 17480
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 58,
                         "startColumn": 4,
@@ -2112,7 +2112,7 @@
                     "endOffset": 17576
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -2131,7 +2131,7 @@
                     "endOffset": 17664
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 37,
                         "startColumn": 4,
@@ -2150,7 +2150,7 @@
                     "endOffset": 17749
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 40,
                         "startColumn": 4,
@@ -2169,7 +2169,7 @@
                     "endOffset": 17838
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 36,
                         "startColumn": 4,
@@ -2188,7 +2188,7 @@
                     "endOffset": 17942
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 42,
                         "startColumn": 4,
@@ -2207,7 +2207,7 @@
                     "endOffset": 18024
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 44,
                         "startColumn": 4,
@@ -2226,7 +2226,7 @@
                     "endOffset": 18078
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 180,
                         "startColumn": 4,
@@ -2245,7 +2245,7 @@
                     "endOffset": 18140
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 179,
                         "startColumn": 4,
@@ -2264,7 +2264,7 @@
                     "endOffset": 18219
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 190,
                         "startColumn": 4,
@@ -2283,7 +2283,7 @@
                     "endOffset": 18266
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 60,
                         "startColumn": 4,
@@ -2302,7 +2302,7 @@
                     "endOffset": 18327
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -2321,7 +2321,7 @@
                     "endOffset": 18372
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 176,
                         "startColumn": 4,
@@ -2340,7 +2340,7 @@
                     "endOffset": 18413
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 127,
                         "startColumn": 4,
@@ -2359,7 +2359,7 @@
                     "endOffset": 18472
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -2378,7 +2378,7 @@
                     "endOffset": 19194
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -2397,7 +2397,7 @@
                     "endOffset": 19250
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 51,
                         "startColumn": 4,
@@ -2416,7 +2416,7 @@
                     "endOffset": 19304
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 185,
                         "startColumn": 4,
@@ -2435,7 +2435,7 @@
                     "endOffset": 19380
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 46,
                         "startColumn": 4,
@@ -2454,7 +2454,7 @@
                     "endOffset": 19457
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -2473,7 +2473,7 @@
                     "endOffset": 19493
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -2492,7 +2492,7 @@
                     "endOffset": 19527
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -2511,7 +2511,7 @@
                     "endOffset": 19584
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 184,
                         "startColumn": 4,
@@ -2530,7 +2530,7 @@
                     "endOffset": 19623
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -2549,7 +2549,7 @@
                     "endOffset": 19681
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 45,
                         "startColumn": 4,
@@ -2568,7 +2568,7 @@
                     "endOffset": 19739
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 169,
                         "startColumn": 4,
@@ -2587,7 +2587,7 @@
                     "endOffset": 19820
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 170,
                         "startColumn": 4,
@@ -2606,7 +2606,7 @@
                     "endOffset": 19895
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 65,
                         "startColumn": 4,
@@ -2625,7 +2625,7 @@
                     "endOffset": 20106
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 66,
                         "startColumn": 4,
@@ -2644,7 +2644,7 @@
                     "endOffset": 20186
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 89,
                         "startColumn": 4,
@@ -2663,7 +2663,7 @@
                     "endOffset": 20321
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 90,
                         "startColumn": 4,
@@ -2682,7 +2682,7 @@
                     "endOffset": 20388
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 87,
                         "startColumn": 4,
@@ -2701,7 +2701,7 @@
                     "endOffset": 20477
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 88,
                         "startColumn": 4,
@@ -2720,7 +2720,7 @@
                     "endOffset": 20562
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 82,
                         "startColumn": 4,
@@ -2739,7 +2739,7 @@
                     "endOffset": 20644
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 64,
                         "startColumn": 4,
@@ -2758,7 +2758,7 @@
                     "endOffset": 20733
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 135,
                         "startColumn": 4,
@@ -2777,7 +2777,7 @@
                     "endOffset": 20794
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 165,
                         "startColumn": 4,
@@ -2796,7 +2796,7 @@
                     "endOffset": 20869
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 67,
                         "startColumn": 4,
@@ -2815,7 +2815,7 @@
                     "endOffset": 20990
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 68,
                         "startColumn": 4,
@@ -2834,7 +2834,7 @@
                     "endOffset": 21062
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 128,
                         "startColumn": 4,
@@ -2853,7 +2853,7 @@
                     "endOffset": 21383
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 129,
                         "startColumn": 4,
@@ -2872,7 +2872,7 @@
                     "endOffset": 21461
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 167,
                         "startColumn": 4,
@@ -2891,7 +2891,7 @@
                     "endOffset": 21708
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 168,
                         "startColumn": 4,
@@ -2910,7 +2910,7 @@
                     "endOffset": 21796
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 75,
                         "startColumn": 4,
@@ -2929,7 +2929,7 @@
                     "endOffset": 21912
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 76,
                         "startColumn": 4,
@@ -2948,7 +2948,7 @@
                     "endOffset": 21987
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 79,
                         "startColumn": 4,
@@ -2967,7 +2967,7 @@
                     "endOffset": 22117
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 80,
                         "startColumn": 4,
@@ -2986,7 +2986,7 @@
                     "endOffset": 22207
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 146,
                         "startColumn": 4,
@@ -3005,7 +3005,7 @@
                     "endOffset": 22453
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 147,
                         "startColumn": 4,
@@ -3024,7 +3024,7 @@
                     "endOffset": 22531
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 117,
                         "startColumn": 4,
@@ -3043,7 +3043,7 @@
                     "endOffset": 22650
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 118,
                         "startColumn": 4,
@@ -3062,7 +3062,7 @@
                     "endOffset": 22709
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 125,
                         "startColumn": 4,
@@ -3081,7 +3081,7 @@
                     "endOffset": 22789
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 126,
                         "startColumn": 4,
@@ -3100,7 +3100,7 @@
                     "endOffset": 22847
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 73,
                         "startColumn": 4,
@@ -3119,7 +3119,7 @@
                     "endOffset": 23013
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 74,
                         "startColumn": 4,
@@ -3138,7 +3138,7 @@
                     "endOffset": 23092
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 142,
                         "startColumn": 4,
@@ -3157,7 +3157,7 @@
                     "endOffset": 23195
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 143,
                         "startColumn": 4,
@@ -3176,7 +3176,7 @@
                     "endOffset": 23282
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 77,
                         "startColumn": 4,
@@ -3195,7 +3195,7 @@
                     "endOffset": 23490
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 78,
                         "startColumn": 4,
@@ -3214,7 +3214,7 @@
                     "endOffset": 23581
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 102,
                         "startColumn": 4,
@@ -3233,7 +3233,7 @@
                     "endOffset": 23892
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 103,
                         "startColumn": 4,
@@ -3252,7 +3252,7 @@
                     "endOffset": 23971
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 132,
                         "startColumn": 4,
@@ -3271,7 +3271,7 @@
                     "endOffset": 24136
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 133,
                         "startColumn": 4,
@@ -3290,7 +3290,7 @@
                     "endOffset": 24200
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 166,
                         "startColumn": 4,
@@ -3309,7 +3309,7 @@
                     "endOffset": 24286
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 92,
                         "startColumn": 4,
@@ -3328,7 +3328,7 @@
                     "endOffset": 24457
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 93,
                         "startColumn": 4,
@@ -3347,7 +3347,7 @@
                     "endOffset": 24530
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 107,
                         "startColumn": 4,
@@ -3366,7 +3366,7 @@
                     "endOffset": 24635
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 108,
                         "startColumn": 4,
@@ -3385,7 +3385,7 @@
                     "endOffset": 24699
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 140,
                         "startColumn": 4,
@@ -3404,7 +3404,7 @@
                     "endOffset": 24843
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 141,
                         "startColumn": 4,
@@ -3423,7 +3423,7 @@
                     "endOffset": 24915
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 158,
                         "startColumn": 4,
@@ -3442,7 +3442,7 @@
                     "endOffset": 24986
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 160,
                         "startColumn": 4,
@@ -3461,7 +3461,7 @@
                     "endOffset": 25105
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 161,
                         "startColumn": 4,
@@ -3480,7 +3480,7 @@
                     "endOffset": 25212
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 159,
                         "startColumn": 4,
@@ -3499,7 +3499,7 @@
                     "endOffset": 25285
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 138,
                         "startColumn": 4,
@@ -3518,7 +3518,7 @@
                     "endOffset": 25404
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 139,
                         "startColumn": 4,
@@ -3537,7 +3537,7 @@
                     "endOffset": 25474
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 104,
                         "startColumn": 4,
@@ -3556,7 +3556,7 @@
                     "endOffset": 25608
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 105,
                         "startColumn": 4,
@@ -3575,7 +3575,7 @@
                     "endOffset": 25686
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 98,
                         "startColumn": 4,
@@ -3594,7 +3594,7 @@
                     "endOffset": 25784
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 99,
                         "startColumn": 4,
@@ -3613,7 +3613,7 @@
                     "endOffset": 25859
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 69,
                         "startColumn": 4,
@@ -3632,7 +3632,7 @@
                     "endOffset": 25959
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 70,
                         "startColumn": 4,
@@ -3651,7 +3651,7 @@
                     "endOffset": 26052
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 91,
                         "startColumn": 4,
@@ -3670,7 +3670,7 @@
                     "endOffset": 26123
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 106,
                         "startColumn": 4,
@@ -3689,7 +3689,7 @@
                     "endOffset": 26203
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 136,
                         "startColumn": 4,
@@ -3708,7 +3708,7 @@
                     "endOffset": 26284
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 137,
                         "startColumn": 4,
@@ -3727,7 +3727,7 @@
                     "endOffset": 26353
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 119,
                         "startColumn": 4,
@@ -3746,7 +3746,7 @@
                     "endOffset": 26425
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 121,
                         "startColumn": 4,
@@ -3765,7 +3765,7 @@
                     "endOffset": 26534
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 122,
                         "startColumn": 4,
@@ -3784,7 +3784,7 @@
                     "endOffset": 26647
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 120,
                         "startColumn": 4,
@@ -3803,7 +3803,7 @@
                     "endOffset": 26730
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 123,
                         "startColumn": 4,
@@ -3822,7 +3822,7 @@
                     "endOffset": 26844
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 124,
                         "startColumn": 4,
@@ -3841,7 +3841,7 @@
                     "endOffset": 26937
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 100,
                         "startColumn": 4,
@@ -3860,7 +3860,7 @@
                     "endOffset": 27146
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 101,
                         "startColumn": 4,
@@ -3879,7 +3879,7 @@
                     "endOffset": 27207
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 111,
                         "startColumn": 4,
@@ -3898,7 +3898,7 @@
                     "endOffset": 27293
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 113,
                         "startColumn": 4,
@@ -3917,7 +3917,7 @@
                     "endOffset": 27408
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 114,
                         "startColumn": 4,
@@ -3936,7 +3936,7 @@
                     "endOffset": 27503
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 115,
                         "startColumn": 4,
@@ -3955,7 +3955,7 @@
                     "endOffset": 27622
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 116,
                         "startColumn": 4,
@@ -3974,7 +3974,7 @@
                     "endOffset": 27746
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 112,
                         "startColumn": 4,
@@ -3993,7 +3993,7 @@
                     "endOffset": 27816
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 94,
                         "startColumn": 4,
@@ -4012,7 +4012,7 @@
                     "endOffset": 27978
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 95,
                         "startColumn": 4,
@@ -4031,7 +4031,7 @@
                     "endOffset": 28065
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 130,
                         "startColumn": 4,
@@ -4050,7 +4050,7 @@
                     "endOffset": 28212
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 131,
                         "startColumn": 4,
@@ -4069,7 +4069,7 @@
                     "endOffset": 28263
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 83,
                         "startColumn": 4,
@@ -4088,7 +4088,7 @@
                     "endOffset": 28325
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 85,
                         "startColumn": 4,
@@ -4107,7 +4107,7 @@
                     "endOffset": 28464
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 86,
                         "startColumn": 4,
@@ -4126,7 +4126,7 @@
                     "endOffset": 28552
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 84,
                         "startColumn": 4,
@@ -4145,7 +4145,7 @@
                     "endOffset": 28631
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 109,
                         "startColumn": 4,
@@ -4164,7 +4164,7 @@
                     "endOffset": 28771
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 110,
                         "startColumn": 4,
@@ -4183,7 +4183,7 @@
                     "endOffset": 28846
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 150,
                         "startColumn": 4,
@@ -4202,7 +4202,7 @@
                     "endOffset": 29119
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 151,
                         "startColumn": 4,
@@ -4221,7 +4221,7 @@
                     "endOffset": 29207
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 162,
                         "startColumn": 4,
@@ -4240,7 +4240,7 @@
                     "endOffset": 29416
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 163,
                         "startColumn": 4,
@@ -4259,7 +4259,7 @@
                     "endOffset": 29490
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 152,
                         "startColumn": 4,
@@ -4278,7 +4278,7 @@
                     "endOffset": 29725
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 153,
                         "startColumn": 4,
@@ -4297,7 +4297,7 @@
                     "endOffset": 29808
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 154,
                         "startColumn": 4,
@@ -4316,7 +4316,7 @@
                     "endOffset": 29941
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 155,
                         "startColumn": 4,
@@ -4335,7 +4335,7 @@
                     "endOffset": 30036
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 156,
                         "startColumn": 4,
@@ -4354,7 +4354,7 @@
                     "endOffset": 30248
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 157,
                         "startColumn": 4,
@@ -4373,7 +4373,7 @@
                     "endOffset": 30337
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 148,
                         "startColumn": 4,
@@ -4392,7 +4392,7 @@
                     "endOffset": 30534
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 149,
                         "startColumn": 4,
@@ -4411,7 +4411,7 @@
                     "endOffset": 30598
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 96,
                         "startColumn": 4,
@@ -4430,7 +4430,7 @@
                     "endOffset": 30721
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 97,
                         "startColumn": 4,
@@ -4449,7 +4449,7 @@
                     "endOffset": 30807
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 71,
                         "startColumn": 4,
@@ -4468,7 +4468,7 @@
                     "endOffset": 30928
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 72,
                         "startColumn": 4,
@@ -4487,7 +4487,7 @@
                     "endOffset": 30993
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -4506,7 +4506,7 @@
                     "endOffset": 31050
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 52,
                         "startColumn": 4,
@@ -4525,7 +4525,7 @@
                     "endOffset": 31163
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 47,
                         "startColumn": 4,
@@ -4544,7 +4544,7 @@
                     "endOffset": 31224
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 61,
                         "startColumn": 4,
@@ -4563,7 +4563,7 @@
                     "endOffset": 31298
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 62,
                         "startColumn": 4,
@@ -4582,7 +4582,7 @@
                     "endOffset": 31381
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-it\\values-it.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -4601,7 +4601,7 @@
                     "endOffset": 31430
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 182,
                         "startColumn": 4,
@@ -4620,7 +4620,7 @@
                     "endOffset": 31486
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 39,
                         "startColumn": 4,
@@ -4639,7 +4639,7 @@
                     "endOffset": 31576
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,
@@ -4658,7 +4658,7 @@
                     "endOffset": 31637
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 4,
@@ -4677,7 +4677,7 @@
                     "endOffset": 31738
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\.android\\build-cache\\a432c15c4d173b23df98ac3ac1f48be0ed865f24\\output\\res\\values-it\\values-it.xml",
+                    "file": "C:\\Users\\CTI OVS\\.android\\build-cache\\f6557a0545e85a6958903802062857c06a3d164b\\output\\res\\values-it\\values-it.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -4696,7 +4696,7 @@
                     "endOffset": 31821
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -4715,7 +4715,7 @@
                     "endOffset": 31872
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 175,
                         "startColumn": 4,
@@ -4734,7 +4734,7 @@
                     "endOffset": 31931
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 43,
                         "startColumn": 4,
@@ -4753,7 +4753,7 @@
                     "endOffset": 31990
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 181,
                         "startColumn": 4,
@@ -4772,7 +4772,7 @@
                     "endOffset": 32037
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 48,
                         "startColumn": 4,
@@ -4791,7 +4791,7 @@
                     "endOffset": 32077
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
@@ -4810,7 +4810,7 @@
                     "endOffset": 32165
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -4829,7 +4829,7 @@
                     "endOffset": 32250
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -4848,7 +4848,7 @@
                     "endOffset": 32337
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -4867,7 +4867,7 @@
                     "endOffset": 32428
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -4886,7 +4886,7 @@
                     "endOffset": 32524
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -4905,7 +4905,7 @@
                     "endOffset": 32584
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 144,
                         "startColumn": 4,
@@ -4924,7 +4924,7 @@
                     "endOffset": 32667
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 145,
                         "startColumn": 4,
@@ -4943,7 +4943,7 @@
                     "endOffset": 32705
                 },
                 "from": {
-                    "file": "C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "file": "E:\\10-09-17\\Procamera\\app\\src\\main\\res\\values-it\\strings.xml",
                     "position": {
                         "startLine": 59,
                         "startColumn": 4,

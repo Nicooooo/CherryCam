@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/timerpicture_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Timer picture"
+        android:textSize="14sp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height=".1dp"
+        android:background="@color/light_grey_bar"/>
+
+    <RelativeLayout
+        android:id="@+id/close_relative"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Close"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/close_radio"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height=".1dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/light_grey_bar"
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/threesec_relative"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="3s"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/threesec_radio"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height=".1dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/light_grey_bar"
+        />
+
+    <RelativeLayout
+        android:id="@+id/fivesec_relative"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="5s"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/fivesec_radio"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height=".1dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/light_grey_bar"
+        />
+
+    <RelativeLayout
+        android:id="@+id/tensec_relative"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="10s"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/tensec_radio"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_grey_bar"/>
+
+    <Button
+        android:id="@+id/timerpicture_cancel"
+        android:layout_width="match_parent"
+        android:text="Cancel"
+        android:background="?android:attr/listChoiceBackgroundIndicator"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

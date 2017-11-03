@@ -9,8 +9,10 @@ import net.sourceforge.opencamera.MyApplicationInterface;
 import net.sourceforge.opencamera.MyDebug;
 import net.sourceforge.opencamera.PreferenceKeys;
 import net.sourceforge.opencamera.R;
+import net.sourceforge.opencamera.RecordButton;
 
 import android.annotation.TargetApi;
+import android.app.Dialog;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.res.ColorStateList;
@@ -19,6 +21,8 @@ import android.hardware.Camera;
 import android.media.AudioManager;
 import android.os.Build;
 import android.preference.PreferenceManager;
+import android.support.design.widget.BottomSheetDialog;
+import android.support.v7.widget.SwitchCompat;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.OrientationEventListener;
@@ -29,14 +33,20 @@ import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.Animation;
 import android.view.animation.ScaleAnimation;
+import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.ImageButton;
+import android.widget.RadioButton;
 import android.widget.RelativeLayout;
 import android.widget.SeekBar;
+import android.widget.TextView;
 import android.widget.ZoomControls;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+
+import static net.sourceforge.opencamera.R.id.settings_bitrate_txt;
 
 /** This contains functionality related to the main UI.
  */
@@ -60,15 +70,20 @@ public class MainUI {
 	private boolean isFlash;
 	private boolean isTimer;
 	public static final String HDR_STATE = "HDR_STATE";
-	boolean hdrstate;
-	Boolean isHdrState = false;
-	String flash = "";
-//	String hdrtest = "";
-
-	CameraController camera_controller;
-boolean save_expo;
-    List<byte []> images;
-    Date current_date;
+	private boolean hdrstate;
+	private Boolean isHdrState = false;
+	private String flash = "";
+	private CameraController camera_controller;
+	private boolean save_expo;
+	private List<byte []> images;
+	private Date current_date;
+	private String storage_path = "";
+	private String camera_resolution = "";
+	private String camera_brightness = "";
+	private String bitrate = "";
+    private String timer_picture = "";
+	private String theme_color = "";
+	RecordButton recordButton;
 
 	public MainUI(MainActivity main_activity) {
 		if( MyDebug.LOG )
@@ -217,7 +232,7 @@ boolean save_expo;
 			layoutParams.addRule(align_parent_bottom, RelativeLayout.TRUE);
 			layoutParams.addRule(align_parent_left, RelativeLayout.TRUE);
 			layoutParams.leftMargin= 50;
-			layoutParams.bottomMargin=140;
+			layoutParams.bottomMargin=60;
 			view.setLayoutParams(layoutParams);
 			setViewRotation(view, ui_rotation);
 
@@ -259,7 +274,7 @@ boolean save_expo;
 			view = main_activity.findViewById(R.id.toggle_camera);
 			layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
 			layoutParams.addRule(RelativeLayout.ALIGN_PARENT_BOTTOM);
-			layoutParams.bottomMargin = 110;
+			layoutParams.bottomMargin = 60;
 			view.setLayoutParams(layoutParams);
 			setViewRotation(view, ui_rotation);
 
@@ -381,14 +396,14 @@ boolean save_expo;
 			layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
 			layoutParams.addRule(RelativeLayout.CENTER_HORIZONTAL);
 			layoutParams.addRule(RelativeLayout.ALIGN_PARENT_BOTTOM);
-			layoutParams.bottomMargin = 100;
+			layoutParams.bottomMargin = 20;
 			view.setLayoutParams(layoutParams);
 			setViewRotation(view, ui_rotation);
 
 			view = main_activity.findViewById(R.id.pause_video);
 			layoutParams = (RelativeLayout.LayoutParams)view.getLayoutParams();
 			layoutParams.addRule(RelativeLayout.ALIGN_PARENT_BOTTOM);
-			layoutParams.bottomMargin = 100;
+			layoutParams.bottomMargin = 20;
 			view.setLayoutParams(layoutParams);
 			setViewRotation(view, ui_rotation);
 
@@ -591,9 +606,11 @@ boolean save_expo;
 //				if( MyDebug.LOG )
 					Log.d(TAG, "set icon to video " );
 				if (main_activity.getPreview().isVideoRecording())
-					resource = R.drawable.take_video_recording;
+//					resource = R.drawable.take_video_recording;
+				resource = R.drawable.start_video_record_button;
 
-				else resource = R.drawable.take_video_selector;
+//				else resource = R.drawable.take_video_selector;
+				else resource = R.drawable.start_video_record_button;
 
 				content_description = main_activity.getPreview().isVideoRecording() ? R.string.stop_video : R.string.start_video;
 				switch_video_content_description = R.string.switch_to_photo;
@@ -601,7 +618,8 @@ boolean save_expo;
 			else {
 //				if( MyDebug.LOG )
 					Log.d(TAG, "set icon to photo " +  main_activity.getPreview().isVideoRecording());
-				resource = R.drawable.take_photo_selector;
+				resource = R.drawable.take_photo_button;
+//				resource = R.drawable.take_photo_selector;
 //				resource = R.drawable.take_video_selector;
 				content_description = R.string.take_photo;
 				switch_video_content_description = R.string.switch_to_video;
@@ -1182,7 +1200,7 @@ boolean save_expo;
 //		}
 
 //		flash_auto.setImageResource(R.drawable.flash_on);
-		timer.setImageResource(R.drawable.sec_off);
+		timer.setImageResource(R.drawable.ic_timer);
 
 		sec_off.setVisibility(View.INVISIBLE);
 		sec_3.setVisibility(View.INVISIBLE);
@@ -1354,18 +1372,890 @@ boolean save_expo;
 	public void setting_gear(){
 		Log.d(TAG, " setting_gear ");
 
+		final SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(main_activity);
+		SharedPreferences.Editor editor = sharedPreferences.edit();
+
 		RelativeLayout settings_gear1 = (RelativeLayout)main_activity.findViewById(R.id.settings_gear1);
 		RelativeLayout settings_relative = (RelativeLayout)main_activity.findViewById(R.id.settings_relative);
 		ImageButton settings_dots = (ImageButton)main_activity.findViewById(R.id.settings_dots);
+		SwitchCompat shutter_switch_compat = (SwitchCompat)main_activity.findViewById(R.id.shutter_switch_compat);
 
 		settings_relative.setVisibility(View.INVISIBLE);
 		settings_dots.setVisibility(View.VISIBLE);
 		settings_gear1.setVisibility(View.VISIBLE);
+
+		final boolean enable_sound = main_activity.getApplicationInterface().getShutterSoundPref();
+
+		shutter_switch_compat.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+			@Override
+			public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+				if (isChecked)
+				{
+
+					SharedPreferences.Editor editor = sharedPreferences.edit();
+					editor = sharedPreferences.edit();
+					editor.putBoolean(PreferenceKeys.getShutterSoundPreferenceKey(), true);
+					editor.apply();
+					boolean enable_sound = main_activity.getApplicationInterface().getShutterSoundPref();
+
+					Log.d(TAG, "ischecked " + " enable_sound " + enable_sound);
+//					main_activity.getPreview().camera_controller.enableShutterSound(true);
+				}
+				else
+				{
+					SharedPreferences.Editor editor = sharedPreferences.edit();
+					editor = sharedPreferences.edit();
+					editor.putBoolean(PreferenceKeys.getShutterSoundPreferenceKey(), false);
+					editor.apply();
+					boolean enable_sound = main_activity.getApplicationInterface().getShutterSoundPref();
+
+					Log.d(TAG, "ischecked " + " enable_sound " + enable_sound);
+//					main_activity.getPreview().camera_controller.enableShutterSound(enable_sound);
+				}
+			}
+		});
 	}
 
-	public void storagepath(){
+	public void storage_path(){
 		Log.d(TAG, " storagepath ");
 
+		final SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(main_activity);
+		SharedPreferences.Editor editor = sharedPreferences.edit();
+
+		final TextView settings_storagepath_text = (TextView)main_activity.findViewById(R.id.settings_storagepath_text);
+
+		final Dialog d = new BottomSheetDialog(this.main_activity);
+		d.setContentView(R.layout.dialog_storagepath);
+		d.setCancelable(true);
+		d.show();
+
+		final RadioButton internal_radio = (RadioButton)d.findViewById(R.id.internal_radio);
+		final RadioButton external_radio = (RadioButton)d.findViewById(R.id.external_radio);
+		RelativeLayout internal_relative = (RelativeLayout)d.findViewById(R.id.internal_relative);
+		RelativeLayout external_relative = (RelativeLayout)d.findViewById(R.id.external_relative);
+		Button storagepath_cancel = (Button)d.findViewById(R.id.storagepath_cancel);
+
+		storage_path = sharedPreferences.getString(PreferenceKeys.getStoragePathState(), storage_path);
+		if (storage_path.equals("Internal"))
+		{
+			internal_radio.setChecked(true);
+		}
+		else if (storage_path.equals("External"))
+		{
+			external_radio.setChecked(true);
+		}
+
+
+		internal_relative.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				storage_path = "Internal";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getStoragePathState(), storage_path);
+				editor.apply();
+				external_radio.setChecked(true);
+				d.dismiss();
+				settings_storagepath_text.setText(storage_path);
+			}
+		});
+
+		external_relative.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				storage_path = "External";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getStoragePathState(), storage_path);
+				editor.apply();
+				internal_radio.setChecked(true);
+				d.dismiss();
+				settings_storagepath_text.setText(storage_path);
+			}
+		});
+
+		internal_radio.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				storage_path = "Internal";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getStoragePathState(), storage_path);
+				editor.apply();
+				external_radio.setChecked(true);
+				d.dismiss();
+				settings_storagepath_text.setText(storage_path);
+			}
+		});
+
+		external_radio.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				storage_path = "External";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getStoragePathState(), storage_path);
+				editor.apply();
+				internal_radio.setChecked(true);
+				d.dismiss();
+				settings_storagepath_text.setText(storage_path);
+			}
+		});
+
+		storagepath_cancel.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				d.dismiss();
+			}
+		});
+
+
+		Log.d(TAG, "storage_path " + storage_path);
+
+	}
+
+	public void camera_resolution(){
+
+		final SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(main_activity);
+		SharedPreferences.Editor editor = sharedPreferences.edit();
+
+		final TextView settings_cameraresolution_txt = (TextView)main_activity.findViewById(R.id.settings_cameraresolution_txt);
+
+		final Dialog d = new BottomSheetDialog(this.main_activity);
+		d.setContentView(R.layout.dialog_cameraresolution);
+		d.setCancelable(true);
+		d.show();
+
+		final RadioButton fourthree_radio = (RadioButton)d.findViewById(R.id.fourthree_radio);
+		final RadioButton onesixnine_radio = (RadioButton)d.findViewById(R.id.onesixnine_radio);
+		final RadioButton oneone_radio = (RadioButton)d.findViewById(R.id.oneone_radio);
+		RelativeLayout camera_reso_oneone = (RelativeLayout)d.findViewById(R.id.camera_reso_oneone);
+		RelativeLayout camera_reso_fourthree = (RelativeLayout)d.findViewById(R.id.camera_reso_fourthree);
+		RelativeLayout camera_reso_onesix = (RelativeLayout)d.findViewById(R.id.camera_reso_onesix);
+		Button camera_reso_cancel = (Button)d.findViewById(R.id.camera_reso_cancel);
+
+		camera_resolution = sharedPreferences.getString(PreferenceKeys.getCameraResolution(), camera_resolution);
+
+		if (camera_resolution.equals("4:3"))
+		{
+			fourthree_radio.setChecked(true);
+		}
+		else if (camera_resolution.equals("16:9"))
+		{
+			onesixnine_radio.setChecked(true);
+		}
+		else if (camera_resolution.equals("1:1"))
+		{
+			oneone_radio.setChecked(true);
+		}
+
+		fourthree_radio.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				camera_resolution = "4:3";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getCameraResolution(), camera_resolution);
+				editor.apply();
+				onesixnine_radio.setChecked(false);
+				oneone_radio.setChecked(false);
+				fourthree_radio.setChecked(true);
+				d.dismiss();
+				settings_cameraresolution_txt.setText(camera_resolution);
+			}
+		});
+
+		onesixnine_radio.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				camera_resolution = "16:9";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getCameraResolution(), camera_resolution);
+				editor.apply();
+				onesixnine_radio.setChecked(true);
+				oneone_radio.setChecked(false);
+				fourthree_radio.setChecked(false);
+				d.dismiss();
+				settings_cameraresolution_txt.setText(camera_resolution);
+			}
+		});
+
+		oneone_radio.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				camera_resolution = "1:1";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getCameraResolution(), camera_resolution);
+				editor.apply();
+				onesixnine_radio.setChecked(false);
+				oneone_radio.setChecked(true);
+				fourthree_radio.setChecked(false);
+				d.dismiss();
+				settings_cameraresolution_txt.setText(camera_resolution);
+			}
+		});
+
+		camera_reso_oneone.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				camera_resolution = "1:1";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getCameraResolution(), camera_resolution);
+				editor.apply();
+				onesixnine_radio.setChecked(false);
+				oneone_radio.setChecked(true);
+				fourthree_radio.setChecked(false);
+				d.dismiss();
+				settings_cameraresolution_txt.setText(camera_resolution);
+			}
+		});
+
+		camera_reso_fourthree.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				camera_resolution = "4:3";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getCameraResolution(), camera_resolution);
+				editor.apply();
+				onesixnine_radio.setChecked(false);
+				oneone_radio.setChecked(false);
+				fourthree_radio.setChecked(true);
+				d.dismiss();
+				settings_cameraresolution_txt.setText(camera_resolution);
+			}
+		});
+
+		camera_reso_onesix.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				camera_resolution = "16:9";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getCameraResolution(), camera_resolution);
+				editor.apply();
+				onesixnine_radio.setChecked(true);
+				oneone_radio.setChecked(false);
+				fourthree_radio.setChecked(false);
+				d.dismiss();
+				settings_cameraresolution_txt.setText(camera_resolution);
+			}
+		});
+
+		camera_reso_cancel.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				d.dismiss();
+			}
+		});
+
+	}
+
+
+	public void camera_screen_brightness(){
+
+		final SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(main_activity);
+		SharedPreferences.Editor editor = sharedPreferences.edit();
+
+		final TextView settings_camera_brightness_text = (TextView)main_activity.findViewById(R.id.settings_camera_brightness_text);
+
+		final Dialog d = new BottomSheetDialog(this.main_activity);
+		d.setContentView(R.layout.dialog_camerascreen_brightness);
+		d.setCancelable(true);
+		d.show();
+
+		RelativeLayout camera_brightness_lowlight = (RelativeLayout)d.findViewById(R.id.camera_brightness_lowlight);
+		RelativeLayout camera_brightness_normal = (RelativeLayout)d.findViewById(R.id.camera_brightness_normal);
+		RelativeLayout camera_brightness_highlight = (RelativeLayout)d.findViewById(R.id.camera_brightness_highlight);
+		final RadioButton lowlight_radio = (RadioButton)d.findViewById(R.id.lowlight_radio);
+		final RadioButton normal_radio = (RadioButton)d.findViewById(R.id.normal_radio);
+		final RadioButton highlight_radio = (RadioButton)d.findViewById(R.id.highlight_radio);
+		Button camera_brightness_cancel = (Button)d.findViewById(R.id.camera_brightness_cancel);
+
+		camera_resolution = sharedPreferences.getString(PreferenceKeys.getCameraResolution(), camera_resolution);
+
+		if (camera_brightness.equals("Low light"))
+		{
+			lowlight_radio.setChecked(true);
+		}
+		else if (camera_brightness.equals("Normal"))
+		{
+			normal_radio.setChecked(true);
+		}
+		else if (camera_brightness.equals("High light"))
+		{
+			highlight_radio.setChecked(true);
+		}
+
+		camera_brightness_lowlight.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				camera_brightness = "Low light";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getCameraBrightness(), camera_brightness);
+				editor.apply();
+				lowlight_radio.setChecked(true);
+				normal_radio.setChecked(false);
+				highlight_radio.setChecked(false);
+				d.dismiss();
+				settings_camera_brightness_text.setText(camera_brightness);
+			}
+		});
+
+		camera_brightness_normal.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				camera_brightness = "Normal";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getCameraBrightness(), camera_brightness);
+				editor.apply();
+				lowlight_radio.setChecked(false);
+				normal_radio.setChecked(true);
+				highlight_radio.setChecked(false);
+				d.dismiss();
+				settings_camera_brightness_text.setText(camera_brightness);
+			}
+		});
+
+		camera_brightness_highlight.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				camera_brightness = "High light";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getCameraBrightness(), camera_brightness);
+				editor.apply();
+				lowlight_radio.setChecked(false);
+				normal_radio.setChecked(false);
+				highlight_radio.setChecked(true);
+				d.dismiss();
+				settings_camera_brightness_text.setText(camera_brightness);
+			}
+		});
+
+		lowlight_radio.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				camera_brightness = "Low light";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getCameraBrightness(), camera_brightness);
+				editor.apply();
+				lowlight_radio.setChecked(true);
+				normal_radio.setChecked(false);
+				highlight_radio.setChecked(false);
+				d.dismiss();
+				settings_camera_brightness_text.setText(camera_brightness);
+			}
+		});
+
+		normal_radio.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				camera_brightness = "Normal";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getCameraBrightness(), camera_brightness);
+				editor.apply();
+				lowlight_radio.setChecked(false);
+				normal_radio.setChecked(true);
+				highlight_radio.setChecked(false);
+				d.dismiss();
+				settings_camera_brightness_text.setText(camera_brightness);
+			}
+		});
+
+		highlight_radio.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				camera_brightness = "High light";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getCameraBrightness(), camera_brightness);
+				editor.apply();
+				lowlight_radio.setChecked(false);
+				normal_radio.setChecked(false);
+				highlight_radio.setChecked(true);
+				d.dismiss();
+				settings_camera_brightness_text.setText(camera_brightness);
+			}
+		});
+
+		camera_brightness_cancel.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				d.dismiss();
+			}
+		});
+
+	}
+
+	public void bit_rate(){
+
+		final SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(main_activity);
+		SharedPreferences.Editor editor = sharedPreferences.edit();
+
+		final TextView settings_bitrate_txt = (TextView)main_activity.findViewById(R.id.settings_bitrate_txt);
+
+		final Dialog d = new BottomSheetDialog(this.main_activity);
+		d.setContentView(R.layout.dialog_bitrate);
+		d.setCancelable(true);
+		d.show();
+
+		RelativeLayout bitrate_high = (RelativeLayout)d.findViewById(R.id.bitrate_high);
+		RelativeLayout bitrate_mid = (RelativeLayout)d.findViewById(R.id.bitrate_mid);
+		RelativeLayout bitrate_low = (RelativeLayout)d.findViewById(R.id.bitrate_low);
+		final RadioButton high_radio = (RadioButton)d.findViewById(R.id.high_radio);
+		final RadioButton mid_radio = (RadioButton)d.findViewById(R.id.mid_radio);
+		final RadioButton low_radio = (RadioButton)d.findViewById(R.id.low_radio);
+		Button bitrate_cancel = (Button)d.findViewById(R.id.bitrate_cancel);
+
+		bitrate = sharedPreferences.getString(PreferenceKeys.getBitrate(), bitrate);
+		if (bitrate.equals("High"))
+		{
+			high_radio.setChecked(true);
+		}
+		else if (bitrate.equals("Mid"))
+		{
+			mid_radio.setChecked(true);
+		}
+		else if (bitrate.equals("Low"))
+		{
+			low_radio.setChecked(true);
+		}
+
+		bitrate_high.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				bitrate = "High";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getBitrate(), bitrate);
+				editor.apply();
+				low_radio.setChecked(false);
+				mid_radio.setChecked(false);
+				high_radio.setChecked(true);
+				d.dismiss();
+				settings_bitrate_txt.setText(bitrate);
+			}
+		});
+
+		bitrate_mid.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				bitrate = "Mid";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getBitrate(), bitrate);
+				editor.apply();
+				low_radio.setChecked(false);
+				mid_radio.setChecked(true);
+				high_radio.setChecked(false);
+				d.dismiss();
+				settings_bitrate_txt.setText(bitrate);
+			}
+		});
+
+		bitrate_low.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				bitrate = "Low";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getBitrate(), bitrate);
+				editor.apply();
+				low_radio.setChecked(true);
+				mid_radio.setChecked(false);
+				high_radio.setChecked(false);
+				d.dismiss();
+				settings_bitrate_txt.setText(bitrate);
+			}
+		});
+
+		high_radio.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				bitrate = "High";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getBitrate(), bitrate);
+				editor.apply();
+				low_radio.setChecked(false);
+				mid_radio.setChecked(false);
+				high_radio.setChecked(true);
+				d.dismiss();
+				settings_bitrate_txt.setText(bitrate);
+			}
+		});
+
+		mid_radio.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				bitrate = "Mid";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getBitrate(), bitrate);
+				editor.apply();
+				low_radio.setChecked(false);
+				mid_radio.setChecked(true);
+				high_radio.setChecked(false);
+				d.dismiss();
+				settings_bitrate_txt.setText(bitrate);
+			}
+		});
+
+		low_radio.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				bitrate = "Low";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getBitrate(), bitrate);
+				editor.apply();
+				low_radio.setChecked(true);
+				mid_radio.setChecked(false);
+				high_radio.setChecked(false);
+				d.dismiss();
+				settings_bitrate_txt.setText(bitrate);
+			}
+		});
+
+		bitrate_cancel.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				d.dismiss();
+			}
+		});
+	}
+
+	public void timer_picture(){
+
+        final SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(main_activity);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+
+        final TextView settings_timerpicture_txt = (TextView)main_activity.findViewById(R.id.settings_timerpicture_txt);
+
+		final Dialog d = new BottomSheetDialog(this.main_activity);
+		d.setContentView(R.layout.dialog_timer_picture);
+		d.setCancelable(true);
+		d.show();
+
+		RelativeLayout close_relative = (RelativeLayout)d.findViewById(R.id.close_relative);
+		RelativeLayout threesec_relative = (RelativeLayout)d.findViewById(R.id.threesec_relative);
+		RelativeLayout fivesec_relative = (RelativeLayout)d.findViewById(R.id.fivesec_relative);
+		RelativeLayout tensec_relative = (RelativeLayout)d.findViewById(R.id.tensec_relative);
+		final RadioButton close_radio = (RadioButton)d.findViewById(R.id.close_radio);
+		final RadioButton threesec_radio = (RadioButton)d.findViewById(R.id.threesec_radio);
+		final RadioButton fivesec_radio = (RadioButton)d.findViewById(R.id.fivesec_radio);
+		final RadioButton tensec_radio = (RadioButton)d.findViewById(R.id.tensec_radio);
+		Button timerpicture_cancel = (Button)d.findViewById(R.id.timerpicture_cancel);
+
+        timer_picture = sharedPreferences.getString(PreferenceKeys.getTimerPicture(), timer_picture);
+        if (timer_picture.equals("Close"))
+        {
+            close_radio.setChecked(true);
+        }
+        else if (timer_picture.equals("3s"))
+        {
+            threesec_radio.setChecked(true);
+        }
+        else if (timer_picture.equals("5s"))
+        {
+            fivesec_radio.setChecked(true);
+        }
+        else if (timer_picture.equals("10s"))
+        {
+            tensec_radio.setChecked(true);
+        }
+
+        close_relative.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                timer_picture = "Close";
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor = sharedPreferences.edit();
+                editor.putString(PreferenceKeys.getBitrate(), timer_picture);
+                editor.apply();
+                close_radio.setChecked(true);
+                threesec_radio.setChecked(false);
+                fivesec_radio.setChecked(false);
+                tensec_radio.setChecked(false);
+                d.dismiss();
+				settings_timerpicture_txt.setText(timer_picture);
+            }
+        });
+
+        threesec_relative.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                timer_picture = "3s";
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor = sharedPreferences.edit();
+                editor.putString(PreferenceKeys.getBitrate(), timer_picture);
+                editor.apply();
+                close_radio.setChecked(false);
+                threesec_radio.setChecked(true);
+                fivesec_radio.setChecked(false);
+                tensec_radio.setChecked(false);
+                d.dismiss();
+				settings_timerpicture_txt.setText(timer_picture);
+            }
+        });
+
+        fivesec_relative.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                timer_picture = "5s";
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor = sharedPreferences.edit();
+                editor.putString(PreferenceKeys.getBitrate(), timer_picture);
+                editor.apply();
+                close_radio.setChecked(false);
+                threesec_radio.setChecked(false);
+                fivesec_radio.setChecked(true);
+                tensec_radio.setChecked(false);
+                d.dismiss();
+				settings_timerpicture_txt.setText(timer_picture);
+            }
+        });
+
+        tensec_relative.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                timer_picture = "10s";
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor = sharedPreferences.edit();
+                editor.putString(PreferenceKeys.getBitrate(), timer_picture);
+                editor.apply();
+                close_radio.setChecked(false);
+                threesec_radio.setChecked(false);
+                fivesec_radio.setChecked(true);
+                tensec_radio.setChecked(false);
+                d.dismiss();
+				settings_timerpicture_txt.setText(timer_picture);
+            }
+        });
+
+
+        close_radio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                timer_picture = "Close";
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor = sharedPreferences.edit();
+                editor.putString(PreferenceKeys.getBitrate(), timer_picture);
+                editor.apply();
+                close_radio.setChecked(true);
+                threesec_radio.setChecked(false);
+                fivesec_radio.setChecked(false);
+                tensec_radio.setChecked(false);
+                d.dismiss();
+				settings_timerpicture_txt.setText(timer_picture);
+            }
+        });
+
+        threesec_radio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                timer_picture = "3s";
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor = sharedPreferences.edit();
+                editor.putString(PreferenceKeys.getBitrate(), timer_picture);
+                editor.apply();
+                close_radio.setChecked(false);
+                threesec_radio.setChecked(true);
+                fivesec_radio.setChecked(false);
+                tensec_radio.setChecked(false);
+                d.dismiss();
+				settings_timerpicture_txt.setText(timer_picture);
+            }
+        });
+
+        fivesec_radio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                timer_picture = "5s";
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor = sharedPreferences.edit();
+                editor.putString(PreferenceKeys.getBitrate(), timer_picture);
+                editor.apply();
+                close_radio.setChecked(false);
+                threesec_radio.setChecked(false);
+                fivesec_radio.setChecked(true);
+                tensec_radio.setChecked(false);
+                d.dismiss();
+				settings_timerpicture_txt.setText(timer_picture);
+            }
+        });
+
+        tensec_radio.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                timer_picture = "10s";
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor = sharedPreferences.edit();
+                editor.putString(PreferenceKeys.getBitrate(), timer_picture);
+                editor.apply();
+                close_radio.setChecked(false);
+                threesec_radio.setChecked(false);
+                fivesec_radio.setChecked(true);
+                tensec_radio.setChecked(false);
+                d.dismiss();
+				settings_timerpicture_txt.setText(timer_picture);
+            }
+        });
+
+		timerpicture_cancel.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				d.dismiss();
+			}
+		});
+
+	}
+
+	public void theme_color(){
+
+		final SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(main_activity);
+		SharedPreferences.Editor editor = sharedPreferences.edit();
+
+		final TextView settings_themecolor_txt = (TextView)main_activity.findViewById(R.id.settings_themecolor_txt);
+
+		final Dialog d = new BottomSheetDialog(this.main_activity);
+		d.setContentView(R.layout.dialog_themecolor);
+		d.setCancelable(true);
+		d.show();
+
+		RelativeLayout themecolor_red = (RelativeLayout)d.findViewById(R.id.themecolor_red);
+		RelativeLayout themecolor_green = (RelativeLayout)d.findViewById(R.id.themecolor_green);
+		RelativeLayout themecolor_blue = (RelativeLayout)d.findViewById(R.id.themecolor_blue);
+		final RadioButton red_radio = (RadioButton)d.findViewById(R.id.red_radio);
+		final RadioButton green_radio = (RadioButton)d.findViewById(R.id.green_radio);
+		final RadioButton blue_radio = (RadioButton)d.findViewById(R.id.blue_radio);
+		Button themecolor_cancel = (Button)d.findViewById(R.id.themecolor_cancel);
+
+		theme_color = sharedPreferences.getString(PreferenceKeys.getThemeColor(), theme_color);
+		if (theme_color.equals("Red"))
+		{
+			red_radio.setChecked(true);
+		}
+		else if (theme_color.equals("Green"))
+		{
+			green_radio.setChecked(true);
+		}
+		else if (theme_color.equals("Blue"))
+		{
+			blue_radio.setChecked(true);
+		}
+
+		themecolor_red.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				theme_color = "Red";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getBitrate(), theme_color);
+				editor.apply();
+				red_radio.setChecked(true);
+				green_radio.setChecked(false);
+				blue_radio.setChecked(false);
+				d.dismiss();
+				settings_themecolor_txt.setText(theme_color);
+			}
+		});
+
+		themecolor_green.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				theme_color = "Green";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getBitrate(), theme_color);
+				editor.apply();
+				red_radio.setChecked(false);
+				green_radio.setChecked(true);
+				blue_radio.setChecked(false);
+				d.dismiss();
+				settings_themecolor_txt.setText(theme_color);
+			}
+		});
+
+		themecolor_blue.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				theme_color = "Blue";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getBitrate(), theme_color);
+				editor.apply();
+				red_radio.setChecked(false);
+				green_radio.setChecked(false);
+				blue_radio.setChecked(true);
+				d.dismiss();
+				settings_themecolor_txt.setText(theme_color);
+			}
+		});
+
+
+		red_radio.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				theme_color = "red";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getBitrate(), theme_color);
+				editor.apply();
+				red_radio.setChecked(true);
+				green_radio.setChecked(false);
+				blue_radio.setChecked(false);
+				d.dismiss();
+				settings_themecolor_txt.setText(theme_color);
+			}
+		});
+
+		green_radio.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				theme_color = "green";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getBitrate(), theme_color);
+				editor.apply();
+				red_radio.setChecked(false);
+				green_radio.setChecked(true);
+				blue_radio.setChecked(false);
+				d.dismiss();
+				settings_themecolor_txt.setText(theme_color);
+			}
+		});
+
+		blue_radio.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				theme_color = "blue";
+				SharedPreferences.Editor editor = sharedPreferences.edit();
+				editor = sharedPreferences.edit();
+				editor.putString(PreferenceKeys.getBitrate(), theme_color);
+				editor.apply();
+				red_radio.setChecked(false);
+				green_radio.setChecked(false);
+				blue_radio.setChecked(true);
+				d.dismiss();
+				settings_themecolor_txt.setText(theme_color);
+			}
+		});
+
+		themecolor_cancel.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				d.dismiss();
+			}
+		});
 	}
 
     public void audioControlStarted() {

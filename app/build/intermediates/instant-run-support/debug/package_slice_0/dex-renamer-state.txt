@@ -1,4 +1,4 @@
-#Mon Oct 30 14:20:22 SGT 2017
-base.0=C\:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_0
+#Mon Oct 30 16:41:04 CST 2017
+base.0=E\:\\10-09-17\\Procamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_0
 renamed.0=classes.dex
-file.0=C\:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_0\\classes.dex
+file.0=E\:\\10-09-17\\Procamera\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_0\\classes.dex

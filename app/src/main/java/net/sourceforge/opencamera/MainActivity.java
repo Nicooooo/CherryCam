@@ -10,6 +10,7 @@ import net.sourceforge.opencamera.UI.MainUI;
 import net.sourceforge.opencamera.UI.PROMode;
 import net.sourceforge.opencamera.UI.SecondFragment;
 import net.sourceforge.opencamera.UI.ThirdFragment;
+import net.sourceforge.opencamera.RecordButton;
 
 import java.io.File;
 import java.io.IOException;
@@ -153,7 +154,7 @@ public class MainActivity extends AppCompatActivity implements AudioListener.Aud
     public static final String FRAGMENT_TAG = "camera";
 	private MyPreferenceFragment fragment;
 //	private PagerSlidingTabStrip pagerSlidingTabStrip;
-
+	RecordButton recordButton;
 	View takePhotoButton;
 	View takeVideoButton;
 
@@ -168,7 +169,7 @@ public class MainActivity extends AppCompatActivity implements AudioListener.Aud
 		}
 		super.onCreate(savedInstanceState);
 
-		requestWindowFeature(Window.FEATURE_NO_TITLE);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
 				WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
@@ -223,7 +224,7 @@ public class MainActivity extends AppCompatActivity implements AudioListener.Aud
 		if( MyDebug.LOG )
 			Log.d(TAG, "supports_force_video_4k? " + supports_force_video_4k);
 
-        mMyPagerAdapter = new MyPagerAdapter(getSupportFragmentManager(), this) {
+		mMyPagerAdapter = new MyPagerAdapter(getSupportFragmentManager(), this) {
 
         };
 		// set up components
@@ -304,6 +305,9 @@ public class MainActivity extends AppCompatActivity implements AudioListener.Aud
 			@Override
 			public void onOrientationChanged(int orientation) {
 				MainActivity.this.mainUI.onOrientationChanged(orientation);
+                if(proMode != null){
+                    proMode.orientationChanged(getPreview().getUIRotation());
+                }
 			}
         };
 		if( MyDebug.LOG )
@@ -947,11 +951,36 @@ public class MainActivity extends AppCompatActivity implements AudioListener.Aud
 		mainUI.setting_gear();
 	}
 
-    public void clickStoragePath(View view){
-        Log.d(TAG,"clickStoragePath");
-        mainUI.storagepath();
-    }
+	public void clickStoragePath(View view){
+		Log.d(TAG,"clickStoragePath");
+		mainUI.storage_path();
+	}
 
+	public void clickCameraResolution(View view){
+		Log.d(TAG,"clickCameraResolution");
+		mainUI.camera_resolution();
+	}
+
+	public void clickCameraScreenBrightness(View view){
+		Log.d(TAG,"clickCameraScreenBrightness");
+		mainUI.camera_screen_brightness();
+	}
+
+	public void clickBitRate(View view){
+		Log.d(TAG,"clickBitRate");
+		mainUI.bit_rate();
+	}
+
+
+	public void clickTimerPicture(View view){
+		Log.d(TAG,"clickTimerPicture");
+		mainUI.timer_picture();
+	}
+
+	public void clickThemeColor(View view){
+		Log.d(TAG,"clickThemeColor");
+		mainUI.theme_color();
+	}
 
     public void clickedTakePhoto(View view) {
 		if( MyDebug.LOG )
@@ -3344,7 +3373,8 @@ public class MainActivity extends AppCompatActivity implements AudioListener.Aud
                 case 3:
                     return FourthFragment.newInstance( "");
                 case 4:
-                    return proMode.newInstance(main_activity);
+                    proMode = new PROMode();
+                    return proMode;
 				default:
 					return null;
 			}

@@ -16,7 +16,7 @@
 
 /*
  * This file is auto-generated. DO NOT MODIFY!
- * The source Renderscript file: C:\\Users\\FiMobile-JMK\\Documents\\GIT\\app\\src\\main\\rs\\create_mtb.rs
+ * The source Renderscript file: E:\\10-09-17\\Procamera\\app\\src\\main\\rs\\create_mtb.rs
  */
 
 package net.sourceforge.opencamera;

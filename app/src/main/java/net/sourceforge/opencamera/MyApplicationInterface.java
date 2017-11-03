@@ -186,8 +186,9 @@ public class MyApplicationInterface implements ApplicationInterface {
 		vpager.addOnPageChangeListener(new ViewPager.OnPageChangeListener()
 		{
 			@Override
-			public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-				Log.d(" Mainact ", " position11 1 " + position + " positionOffset " + positionOffset + " positionOffsetPixels " + positionOffsetPixels);
+			public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels)
+			{
+				Log.d(" Mainact ", " position11 1 ");
 
 				if (position == 0 && positionOffsetPixels == 0)  // night
 				{
@@ -215,14 +216,43 @@ public class MyApplicationInterface implements ApplicationInterface {
 			@Override
 			public void onPageSelected(int position)
 			{
-//				main_activity.getPreview().openActivity();
+				Log.d(" Mainact ", " position11 2 " );
+
+				if (position == 0 )  // night
+				{
+					switchPhoto();
+//					main_activity.getPreview().pausePreview();
+				}
+				else if (position == 1 )  // video
+				{
+					switchVideo();
+//					main_activity.getPreview().pausePreview();
+				}
+				else if (position == 2  )  // photo
+				{
+					switchPhoto();
+//					main_activity.getPreview().onPause();
+				}
+				else if (position == 3 )  // beauty
+				{
+					switchPhoto();
+//					main_activity.getPreview().onPause();
+
+				}
+				else if (position == 4)  // pro
+				{
+
+
+				}
+
 			}
 
 			@Override
 			public void onPageScrollStateChanged(int state)
 			{
-				Log.d(" Mainact ", " position33 3 " + state);
+				Log.d(" Mainact ", " position11 3 " + state);
 //				main_activity.getPreview().closeActivity();
+//				main_activity.getPreview().onResume();
 			}
 		});
 
@@ -234,6 +264,8 @@ public class MyApplicationInterface implements ApplicationInterface {
 	{
 		Log.d(TAG," switch photo ");
 		View switchVideoButton = main_activity.findViewById(R.id.take_photo);
+
+
 		if (main_activity.getPreview().isVideo()) {
 			switchVideoButton.setEnabled(false); // prevent slowdown if user repeatedly clicks
 			main_activity.getPreview().switchVideo(true);
@@ -1050,7 +1082,9 @@ public class MyApplicationInterface implements ApplicationInterface {
 		}
 		main_activity.stopAudioListeners(); // important otherwise MediaRecorder will fail to start() if we have an audiolistener! Also don't want to have the speech recognizer going off
 		ImageButton view = (ImageButton)main_activity.findViewById(R.id.take_photo);
-		view.setImageResource(R.drawable.take_video_recording);
+//		view.setImageResource(R.drawable.take_video_recording);
+		view.setImageResource(R.drawable.start_video_record_button);
+
 		view.setContentDescription( getContext().getResources().getString(R.string.stop_video) );
 		view.setTag(R.drawable.take_video_recording); // for testing
 	}
@@ -1217,7 +1251,8 @@ public class MyApplicationInterface implements ApplicationInterface {
 			Log.d(TAG, "stoppingVideo()");
 		main_activity.unlockScreen();
 		ImageButton view = (ImageButton)main_activity.findViewById(R.id.take_photo);
-		view.setImageResource(R.drawable.take_video_selector);
+//		view.setImageResource(R.drawable.take_video_selector);
+		view.setImageResource(R.drawable.start_video_record_button);
 		view.setContentDescription( getContext().getResources().getString(R.string.start_video) );
 		view.setTag(R.drawable.take_video_selector); // for testing
 	}
@@ -1418,7 +1453,8 @@ public class MyApplicationInterface implements ApplicationInterface {
 		}
 		main_activity.getPreview().showToast(null, error_message);
 		ImageButton view = (ImageButton)main_activity.findViewById(R.id.take_photo);
-		view.setImageResource(R.drawable.take_video_selector);
+//		view.setImageResource(R.drawable.take_video_selector);
+		view.setImageResource(R.drawable.start_video_record_button);
 		view.setContentDescription( getContext().getResources().getString(R.string.start_video) );
 		view.setTag(R.drawable.take_video_selector); // for testing
 	}
@@ -1445,7 +1481,9 @@ public class MyApplicationInterface implements ApplicationInterface {
 	public void onFailedCreateVideoFileError() {
 		main_activity.getPreview().showToast(null, R.string.failed_to_save_video);
 		ImageButton view = (ImageButton)main_activity.findViewById(R.id.take_photo);
-		view.setImageResource(R.drawable.take_video_selector);
+//		view.setImageResource(R.drawable.take_video_selector);
+		view.setImageResource(R.drawable.start_video_record_button);
+
 		view.setContentDescription( getContext().getResources().getString(R.string.start_video) );
 		view.setTag(R.drawable.take_video_selector); // for testing
 	}

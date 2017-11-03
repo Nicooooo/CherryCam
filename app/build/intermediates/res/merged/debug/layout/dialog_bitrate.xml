@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/bitrate_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Bit rate"
+        android:textSize="14sp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height=".1dp"
+        android:background="@color/light_grey_bar"/>
+
+    <RelativeLayout
+        android:id="@+id/bitrate_high"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="High"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/high_radio"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height=".1dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/light_grey_bar"
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/bitrate_mid"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Mid"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/mid_radio"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height=".1dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/light_grey_bar"
+        />
+
+    <RelativeLayout
+        android:id="@+id/bitrate_low"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Low"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/low_radio"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_grey_bar"/>
+
+    <Button
+        android:id="@+id/bitrate_cancel"
+        android:layout_width="match_parent"
+        android:text="Cancel"
+        android:background="?android:attr/listChoiceBackgroundIndicator"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
